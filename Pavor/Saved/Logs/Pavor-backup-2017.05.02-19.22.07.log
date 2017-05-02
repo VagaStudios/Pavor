@@ -1,0 +1,716 @@
+﻿Log file open, 05/02/17 18:44:33
+LogInit:Display: Running engine for game: Pavor
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(98611976) SRandInit(98611976).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081699
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.02-16.44.34:807][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.02-16.44.34:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.02-16.44.34:815][  0]LogInit: Computer: PC1
+[2017.05.02-16.44.34:815][  0]LogInit: User: Jorn
+[2017.05.02-16.44.34:815][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.02-16.44.34:815][  0]LogInit: High frequency timer resolution =3.117793 MHz
+[2017.05.02-16.44.34:816][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.02-16.44.34:816][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.02-16.44.34:816][  0]LogMemory: Process Physical Memory: 262.13 MB used, 262.13 MB peak
+[2017.05.02-16.44.34:816][  0]LogMemory: Process Virtual Memory: 262.77 MB used, 262.77 MB peak
+[2017.05.02-16.44.34:816][  0]LogMemory: Physical Memory: 6691.90 MB used,  1452.54 MB free, 8144.44 MB total
+[2017.05.02-16.44.34:816][  0]LogMemory: Virtual Memory: 630.19 MB used,  1452.54 MB free, 134217728.00 MB total
+[2017.05.02-16.44.34:898][  0]LogTextLocalizationManager: No translations for ('nl-BE') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.02-16.44.35:854][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.02-16.44.35:984][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.05.02-16.44.35:984][  0]LogD3D11RHI:       4059/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.02-16.44.35:986][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.02-16.44.35:986][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.02-16.44.35:986][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.02-16.44.35:993][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.02-16.44.35:993][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.02-16.44.35:993][  0]LogWindows: EnumDisplayDevices:
+[2017.05.02-16.44.35:994][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.05.02-16.44.35:994][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2017.05.02-16.44.35:994][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.05.02-16.44.35:994][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.05.02-16.44.35:995][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.02-16.44.35:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.05.02-16.44.35:995][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.02-16.44.35:995][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.02-16.44.35:995][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.02-16.44.36:015][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.02-16.44.36:032][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.02-16.44.36:133][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../D Drive/HorroFPSS/Pavor/Pavor/Intermediate/Shaders/WorkingDirectory/11716/).
+[2017.05.02-16.44.36:133][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jorn/AppData/Local/Temp/UnrealShaderWorkingDir/229973AC4CB1610531945E8A03482045/'.
+[2017.05.02-16.44.36:133][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.02-16.44.37:643][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.02-16.44.37:698][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.02-16.44.37:751][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.02-16.44.37:808][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.02-16.44.37:861][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.02-16.44.37:916][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.02-16.44.37:970][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.02-16.44.38:022][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.02-16.44.38:066][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.02-16.44.38:119][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.02-16.44.38:172][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.02-16.44.38:224][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.02-16.44.38:279][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.02-16.44.38:332][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.02-16.44.38:385][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.02-16.44.38:489][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.02-16.44.38:489][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.02-16.44.38:526][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.02-16.44.38:618][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.02-16.44.38:649][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.02-16.44.38:700][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.02-16.44.38:751][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.02-16.44.38:804][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.02-16.44.38:855][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.02-16.44.38:855][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.02-16.44.39:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.02-16.44.39:278][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.02-16.44.39:278][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.02-16.44.39:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../D Drive/HorroFPSS/Pavor/Pavor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.02-16.44.39:278][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.02-16.44.39:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../D Drive/HorroFPSS/Pavor/Pavor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.02-16.44.39:278][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.02-16.44.39:298][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.02-16.44.39:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jorn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.02-16.44.39:320][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.02-16.44.39:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.02-16.44.39:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.02-16.44.39:636][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.02-16.44.39:639][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.02-16.44.39:841][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.02-16.44.39:881][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.02-16.44.39:925][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.02-16.44.39:925][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.02-16.44.39:925][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.02-16.44.40:457][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: pavor, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2027194026
+[2017.05.02-16.44.40:499][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.05.02-16.44.40:527][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.012318 seconds
+[2017.05.02-16.44.40:532][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.02-16.44.40:533][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.02-16.44.40:533][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.02-16.44.40:578][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.02-16.44.42:881][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.02-16.44.42:930][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.02-16.44.43:413][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.02-16.44.43:777][  0]SourceControl: Info Source control is disabled
+[2017.05.02-16.44.46:689][  0]LogEngine: Initializing Engine...
+[2017.05.02-16.44.46:689][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.02-16.44.46:918][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.02-16.44.46:933][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.02-16.44.46:948][  0]LogInit: FAudioDevice initialized.
+[2017.05.02-16.44.46:974][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.02-16.44.46:981][  0]LogInit: Texture streaming: Enabled
+[2017.05.02-16.44.47:054][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.02-16.44.47:136][  0]LogInit: Transaction tracking system initialized
+[2017.05.02-16.44.47:446][  0]BlueprintLog: New page: Editor Load
+[2017.05.02-16.44.48:259][  0]LocalizationService: Info Localization service is disabled
+[2017.05.02-16.44.48:863][  0]LogConsoleResponse:Display: 
+[2017.05.02-16.44.48:985][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.02-16.44.48:985][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.02-16.44.49:891][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/' took 0.08s
+[2017.05.02-16.44.50:293][  0]Cmd: MAP LOAD FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.02-16.44.50:294][  0]LightingResults: New page: Lighting Build
+[2017.05.02-16.44.50:334][  0]MapCheck: New page: Map Check
+[2017.05.02-16.44.50:334][  0]LightingResults: New page: Lighting Build
+[2017.05.02-16.44.51:029][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.02-16.44.51:052][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.02-16.44.51:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.02-16.44.51:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.006ms to complete.
+[2017.05.02-16.44.51:119][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.826
+[2017.05.02-16.44.51:316][  0]LogCollectionManager: Loaded 0 collections in 0.001429 seconds
+[2017.05.02-16.44.51:395][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Saved/Collections/' took 0.01s
+[2017.05.02-16.44.51:396][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Developers/Jorn/Collections/' took 0.01s
+[2017.05.02-16.44.51:396][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Collections/' took 0.01s
+[2017.05.02-16.44.51:396][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.02-16.44.51:405][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2245 classes and 453 folders.
+[2017.05.02-16.44.51:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.02-16.44.51:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.02-16.44.51:461][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.02-16.44.51:516][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.02-16.44.51:555][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.02-16.44.51:600][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.02-16.44.51:607][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.02-16.44.51:667][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.02-16.44.51:668][  0]LogLoad: (Engine Initialization) Total time: 19.27 seconds
+[2017.05.02-16.44.51:668][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.05.02-16.44.51:668][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.02-16.44.51:668][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.02-16.44.52:007][  0]LogOcInput: OculusInput pre-init called
+[2017.05.02-16.44.52:040][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.02-16.44.52:041][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.02-16.44.52:045][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.02-16.44.52:051][  0]LogSlate: Took 0.000419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.02-16.44.52:161][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.02-16.44.52:224][  0]LogRenderer: Reallocating scene render targets to support 1196x640 NumSamples 1 (Frame:2).
+[2017.05.02-16.44.52:345][  1]LogAssetRegistry: Asset discovery search completed in 11.8681 seconds
+[2017.05.02-16.44.52:345][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.02-16.44.52:345][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.05.02-16.44.55:018][ 31]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.02-16.45.01:407][767]AssetReimport: New page: Outstanding source content changes 8:45:01 PM
+[2017.05.02-16.45.02:074][769]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeBig.fbx]
+[2017.05.02-16.45.02:304][769]LogFbx: Loading FBX Scene from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeBig.fbx
+[2017.05.02-16.45.02:313][769]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.02-16.45.02:805][769]LogStaticMesh: Building static mesh planeBig...
+[2017.05.02-16.45.03:029][769]LogStaticMesh: Built static mesh [0.23s] /Game/Geometry/planeBig.planeBig
+[2017.05.02-16.45.03:250][769]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.03:443][770]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeSmall.fbx]
+[2017.05.02-16.45.03:452][770]LogFbx: Loading FBX Scene from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeSmall.fbx
+[2017.05.02-16.45.03:458][770]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.02-16.45.03:464][770]LogStaticMesh: Building static mesh planeSmall...
+[2017.05.02-16.45.03:464][770]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/planeSmall.planeSmall
+[2017.05.02-16.45.03:466][770]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.03:596][771]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1.fbx]
+[2017.05.02-16.45.03:605][771]LogFbx: Loading FBX Scene from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1.fbx
+[2017.05.02-16.45.03:787][771]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.02-16.45.05:429][771]LogStaticMesh: Building static mesh rock1...
+[2017.05.02-16.45.05:724][771]LogStaticMesh: Built static mesh [0.30s] /Game/Geometry/rock1.rock1
+[2017.05.02-16.45.05:827][771]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.06:029][772]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_AO.jpg]
+[2017.05.02-16.45.06:029][772]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_AO.jpg)
+[2017.05.02-16.45.06:594][772]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.06:638][772]SourceControl: Info On branch master
+[2017.05.02-16.45.06:638][772]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.02-16.45.06:638][772]SourceControl: Info Changes not staged for commit:
+[2017.05.02-16.45.06:638][772]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.02-16.45.06:638][772]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Intermediate/CachedAssetRegistry.bin
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Saved/Autosaves/PackageRestoreData.json
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Saved/Config/Windows/Engine.ini
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Saved/Config/Windows/SourceControlSettings.ini
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	modified:   Pavor/Saved/Logs/Pavor.log
+[2017.05.02-16.45.06:638][772]SourceControl: Info Untracked files:
+[2017.05.02-16.45.06:638][772]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/FirstPerson/
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/FirstPersonBP/
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/Geometry/
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/Levels/
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/StarterContent/Textures/T_Water_M_Mat.uasset
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/StarterContent/Textures/T_Water_Mat.uasset
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Content/Textures/
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/AutoScreenshot.png
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Backup/Minimal_Default_2017-05-01-21-24-55.umap
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Backup/Minimal_Default_BuiltData_2017-05-01-21-24-55.uasset
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Config/WorldState/
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Logs/Pavor-backup-2017.05.02-18.41.20.log
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Logs/Pavor-backup-2017.05.02-18.44.33.log
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Logs/Pavor_2.log
+[2017.05.02-16.45.06:638][772]SourceControl: Info 	Pavor/Saved/Logs/UE4CC-Windows-077A061D4F2108E59073D380DEC0FF5D/
+[2017.05.02-16.45.06:639][772]SourceControl: Info 	Pavor/Saved/Logs/UE4CC-Windows-4A6DC6B84B4C52517CBA07811CA39F3B/
+[2017.05.02-16.45.06:639][772]SourceControl: Info 	Pavor/Saved/Logs/UE4CC-Windows-E73A66DF4FCBE64F01B79CB91AFDB41A/
+[2017.05.02-16.45.06:639][772]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.02-16.45.06:679][773]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_BumpMap_g72.3506.jpg]
+[2017.05.02-16.45.06:680][773]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_BumpMap_g72.3506.jpg)
+[2017.05.02-16.45.06:900][773]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.06:969][774]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_NormalMap.jpg]
+[2017.05.02-16.45.06:970][774]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_NormalMap.jpg)
+[2017.05.02-16.45.07:163][774]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.07:201][775]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_Texture.png]
+[2017.05.02-16.45.07:218][775]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_Texture.png)
+[2017.05.02-16.45.13:543][775]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.13:592][776]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-albedo3.png]
+[2017.05.02-16.45.13:619][776]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-albedo3.png)
+[2017.05.02-16.45.20:626][776]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.20:724][777]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-ao.png]
+[2017.05.02-16.45.20:732][777]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-ao.png)
+[2017.05.02-16.45.24:225][777]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.24:281][778]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-height.png]
+[2017.05.02-16.45.24:294][778]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-height.png)
+[2017.05.02-16.45.29:474][778]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.29:544][779]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-normal2.png]
+[2017.05.02-16.45.29:576][779]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-normal2.png)
+[2017.05.02-16.45.30:861][779]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.30:940][780]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-rough.png]
+[2017.05.02-16.45.30:948][780]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-rough.png)
+[2017.05.02-16.45.33:203][780]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.33:271][781]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_BumpMap.jpg]
+[2017.05.02-16.45.33:272][781]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_BumpMap.jpg)
+[2017.05.02-16.45.33:432][781]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.33:603][782]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_NormalMap.jpg]
+[2017.05.02-16.45.33:605][782]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_NormalMap.jpg)
+[2017.05.02-16.45.33:717][782]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.33:792][782]LogEditorFactories: Performing atomic reimport of [D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_SpecularMap.jpg]
+[2017.05.02-16.45.33:793][782]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_SpecularMap.jpg)
+[2017.05.02-16.45.34:002][782]LogEditorFactories: -- imported successfully
+[2017.05.02-16.45.34:802][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/planeBig" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeBig.uasset" SILENT=true
+[2017.05.02-16.45.35:021][783]LogSavePackage: Save=152.94ms
+[2017.05.02-16.45.35:021][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/planeBigBCE5AAB940A86C4C3771C2945FE0A596.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeBig.uasset'
+[2017.05.02-16.45.35:028][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeBig.uasset
+[2017.05.02-16.45.35:047][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/planeSmall" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeSmall.uasset" SILENT=true
+[2017.05.02-16.45.35:059][783]LogSavePackage: Save=9.57ms
+[2017.05.02-16.45.35:059][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/planeSmall8C085C574840EC17D33CD79215BE40C5.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeSmall.uasset'
+[2017.05.02-16.45.35:061][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeSmall.uasset
+[2017.05.02-16.45.35:091][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/rock1" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1.uasset" SILENT=true
+[2017.05.02-16.45.35:125][783]LogSavePackage: Save=24.78ms
+[2017.05.02-16.45.35:125][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/rock17159061542BDA8EF6366009806FB827C.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1.uasset'
+[2017.05.02-16.45.35:142][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1.uasset
+[2017.05.02-16.45.35:187][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/rock1_AO" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_AO.uasset" SILENT=true
+[2017.05.02-16.45.35:250][783]LogSavePackage: Save=32.89ms
+[2017.05.02-16.45.35:250][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/rock1_AO63F7B0BC46A878DDC658FE920EC6718B.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_AO.uasset'
+[2017.05.02-16.45.35:252][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_AO.uasset
+[2017.05.02-16.45.35:264][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/rock1_BumpMap_g72_3506" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_BumpMap_g72_3506.uasset" SILENT=true
+[2017.05.02-16.45.35:395][783]LogSavePackage: Save=110.07ms
+[2017.05.02-16.45.35:395][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/rock1_BumpMap_g72_3506A95A23814DFC45A18D1F2799649A2905.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_BumpMap_g72_3506.uasset'
+[2017.05.02-16.45.35:397][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_BumpMap_g72_3506.uasset
+[2017.05.02-16.45.35:409][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/rock1_NormalMap" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_NormalMap.uasset" SILENT=true
+[2017.05.02-16.45.35:600][783]LogSavePackage: Save=163.91ms
+[2017.05.02-16.45.35:600][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/rock1_NormalMap127B7FC743D7E5368A6784A6B87D2360.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_NormalMap.uasset'
+[2017.05.02-16.45.35:602][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_NormalMap.uasset
+[2017.05.02-16.45.35:611][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/rock1_Texture" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_Texture.uasset" SILENT=true
+[2017.05.02-16.45.36:461][783]LogSavePackage: Save=785.75ms
+[2017.05.02-16.45.36:461][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/rock1_TextureB2577478440EEF159F8AA7A39C45DF1C.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_Texture.uasset'
+[2017.05.02-16.45.36:464][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_Texture.uasset
+[2017.05.02-16.45.36:474][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/grass1-albedo3" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-albedo3.uasset" SILENT=true
+[2017.05.02-16.45.38:024][783]LogSavePackage: Save=1377.10ms
+[2017.05.02-16.45.38:024][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/grass1-albedo301E18685458EEBA6202B7BB0A4DCD0B8.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-albedo3.uasset'
+[2017.05.02-16.45.38:027][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-albedo3.uasset
+[2017.05.02-16.45.38:037][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/grass1-ao" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-ao.uasset" SILENT=true
+[2017.05.02-16.45.38:765][783]LogSavePackage: Save=687.37ms
+[2017.05.02-16.45.38:765][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/grass1-ao63FFB5214FCD88EC1DDE7E884BD5A022.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-ao.uasset'
+[2017.05.02-16.45.38:767][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-ao.uasset
+[2017.05.02-16.45.38:777][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/grass1-height" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-height.uasset" SILENT=true
+[2017.05.02-16.45.39:485][783]LogSavePackage: Save=637.30ms
+[2017.05.02-16.45.39:485][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/grass1-height42E97DE545B21C0510D8D88CD9E776B1.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-height.uasset'
+[2017.05.02-16.45.39:491][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-height.uasset
+[2017.05.02-16.45.39:502][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/grass1-normal2" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-normal2.uasset" SILENT=true
+[2017.05.02-16.45.41:322][783]LogSavePackage: Save=1643.45ms
+[2017.05.02-16.45.41:322][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/grass1-normal2D656C2304F194B6DD5FE3F9CD440AE0C.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-normal2.uasset'
+[2017.05.02-16.45.41:327][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-normal2.uasset
+[2017.05.02-16.45.41:340][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/grass1-rough" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-rough.uasset" SILENT=true
+[2017.05.02-16.45.41:631][783]LogSavePackage: Save=252.42ms
+[2017.05.02-16.45.41:631][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/grass1-roughAC8FF3374B36111D325C619B5B3D66EA.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-rough.uasset'
+[2017.05.02-16.45.41:633][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-rough.uasset
+[2017.05.02-16.45.41:643][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Sand_BumpMap" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_BumpMap.uasset" SILENT=true
+[2017.05.02-16.45.41:728][783]LogSavePackage: Save=48.77ms
+[2017.05.02-16.45.41:728][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Sand_BumpMapD021A72F4F2FE9C9AB5F82B6E21AE3B6.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_BumpMap.uasset'
+[2017.05.02-16.45.41:730][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_BumpMap.uasset
+[2017.05.02-16.45.41:740][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Sand_NormalMap" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_NormalMap.uasset" SILENT=true
+[2017.05.02-16.45.41:840][783]LogSavePackage: Save=76.64ms
+[2017.05.02-16.45.41:840][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Sand_NormalMap17696C5D4FA462D61FE2088D1C667BB3.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_NormalMap.uasset'
+[2017.05.02-16.45.41:843][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_NormalMap.uasset
+[2017.05.02-16.45.41:853][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Sand_SpecularMap" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_SpecularMap.uasset" SILENT=true
+[2017.05.02-16.45.41:908][783]LogSavePackage: Save=33.32ms
+[2017.05.02-16.45.41:908][783]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Sand_SpecularMap4CFEBD974967EF0E54D759A4FF5EED0D.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_SpecularMap.uasset'
+[2017.05.02-16.45.41:911][783]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_SpecularMap.uasset
+[2017.05.02-16.45.41:924][784]LogFileCache: Retrieving MD5 hashes for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/' took 49.90s
+[2017.05.02-16.45.44:967][793]AssetReimport: Info Reimported asset planeBig from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeBig.fbx.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset planeSmall from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/planeSmall.fbx.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset rock1 from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1.fbx.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset rock1_AO from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_AO.jpg.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset rock1_BumpMap_g72_3506 from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_BumpMap_g72.3506.jpg.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset rock1_NormalMap from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_NormalMap.jpg.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset rock1_Texture from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Geometry/rock1_Texture.png.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset grass1-albedo3 from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-albedo3.png.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset grass1-ao from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-ao.png.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset grass1-height from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-height.png.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset grass1-normal2 from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-normal2.png.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset grass1-rough from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/grass1-rough.png.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset Sand_BumpMap from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_BumpMap.jpg.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset Sand_NormalMap from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_NormalMap.jpg.
+[2017.05.02-16.45.44:968][793]AssetReimport: Info Reimported asset Sand_SpecularMap from D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Textures/Sand_SpecularMap.jpg.
+[2017.05.02-16.48.04:496][533]LogAIModule: Creating AISystem for world Island
+[2017.05.02-16.48.04:666][533]Cmd: MAP LOAD FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.02-16.48.04:666][533]LightingResults: New page: Lighting Build
+[2017.05.02-16.48.04:669][533]LoadErrors: New page: Loading map: Island.umap
+[2017.05.02-16.48.04:689][533]MapCheck: New page: Map Check
+[2017.05.02-16.48.04:689][533]LightingResults: New page: Lighting Build
+[2017.05.02-16.48.04:957][533]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.02-16.48.04:995][533]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.02-16.48.05:156][533]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 160.333ms to complete.
+[2017.05.02-16.48.05:156][533]LogFileHelpers: Loading map 'Island' took 0.522
+[2017.05.02-16.48.10:456][ 70]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape9)
+[2017.05.02-16.48.11:543][125]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape9)
+[2017.05.02-16.48.19:063][935]SourceControl: Info fatal: D:/Program Files (x86)/UE_4.15/Engine/Content/: 'D:/Program Files (x86)/UE_4.15/Engine/Content/' is outside repository
+[2017.05.02-16.48.19:237][935]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Pavor.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.02-16.48.20:058][935]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.813 s
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: 
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Pavor.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: Stack: 
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000992095E6
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000098FB9B82
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000098FCB666
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000009837A6B8
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000009A4C3D22
+[2017.05.02-16.48.20:058][935]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000009A4C3EB9
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000007E311D2E
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000007E2CB4B5
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000007E2CAA8D
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000007E2DF274
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000762EB851
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000762FD1ED
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000009A4C9C5C
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000851A7517
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000859B2086
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor.exe!0x0000000061BADEE3
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor.exe!0x0000000061B9EB40
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor.exe!0x0000000061B9EBBA
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor.exe!0x0000000061BB0A29
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: UE4Editor.exe!0x0000000061BB22B6
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: KERNEL32.DLL!0x00000000C5718364
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: ntdll.dll!0x00000000C7BF70D1
+[2017.05.02-16.48.20:059][935]LogOutputDevice:Error: 
+[2017.05.02-16.48.20:066][935]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.02-16.48.27:067][935]LogStats:                    SendNewReport -  7.001 s
+[2017.05.02-16.48.27:067][935]LogStats:             FDebug::EnsureFailed -  7.830 s
+[2017.05.02-16.48.53:288][935]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.05.02-16.48.53:731][935]SourceControl: Info [master c924ba5] imported tons of files
+[2017.05.02-16.48.53:731][935]SourceControl: Info  19 files changed, 0 insertions(+), 0 deletions(-)
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/planeBig.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/planeSmall.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/rock1.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/rock1_AO.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/rock1_BumpMap_g72_3506.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/rock1_NormalMap.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Geometry/rock1_Texture.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Levels/Island.umap
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Levels/Island_BuiltData.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Levels/Standard.umap
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Levels/Standard_BuiltData.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/Sand_BumpMap.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/Sand_NormalMap.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/Sand_SpecularMap.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/grass1-albedo3.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/grass1-ao.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/grass1-height.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/grass1-normal2.uasset
+[2017.05.02-16.48.53:731][935]SourceControl: Info  create mode 100644 Pavor/Content/Textures/grass1-rough.uasset
+[2017.05.02-16.48.53:743][935]SourceControl: Info Commited [master c924ba5] imported tons of files.
+[2017.05.02-16.57.38:643][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rock1)
+[2017.05.02-16.57.40:033][692]Cmd: DELETE
+[2017.05.02-16.57.40:033][692]Cmd: ACTOR DELETE
+[2017.05.02-16.57.40:298][692]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.02-16.57.40:384][692]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2017.05.02-16.57.41:185][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.02-16.57.41:631][768]LogSavePackage: Save=425.06ms
+[2017.05.02-16.57.41:632][768]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Island9E347B2243E12D69EAFC97B9479A220D.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap'
+[2017.05.02-16.57.41:634][768]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap
+[2017.05.02-16.57.41:831][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island_BuiltData" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset" SILENT=true
+[2017.05.02-16.57.41:944][768]LogSavePackage: Save=107.81ms
+[2017.05.02-16.57.41:944][768]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Island_BuiltDataE3566D1F455EE895E0E9EA918C28C70C.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset'
+[2017.05.02-16.57.41:945][768]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset
+[2017.05.02-16.57.43:988][990]SourceControl: Info fatal: D:/Program Files (x86)/UE_4.15/Engine/Content/: 'D:/Program Files (x86)/UE_4.15/Engine/Content/' is outside repository
+[2017.05.02-16.57.44:096][990]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Pavor.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.05.02-16.57.49:542][990]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.05.02-16.57.49:651][990]SourceControl: Info [master c965370] more imports
+[2017.05.02-16.57.49:651][990]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.05.02-16.57.49:663][990]SourceControl: Info Commited [master c965370] more imports.
+[2017.05.02-16.57.53:013][332]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.02-16.57.53:246][333]Cmd: QUIT_EDITOR
+[2017.05.02-16.57.53:393][333]LogExit: Preparing to exit.
+[2017.05.02-16.57.54:107][333]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/' was aborted.
+[2017.05.02-16.57.54:251][333]LogExit: Editor shut down
+[2017.05.02-16.57.54:252][333]LogExit: Transaction tracking system shut down
+[2017.05.02-16.57.54:425][333]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.02-16.57.54:426][333]LogExit: Object subsystem successfully closed.
+[2017.05.02-16.57.54:446][333]LogD3D11RHI: Shutdown
+[2017.05.02-16.57.54:446][333]LogD3D11RHI: CleanupD3DDevice
+[2017.05.02-16.57.54:525][333]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.02-16.57.54:537][333]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.02-16.57.54:537][333]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.02-16.57.54:537][333]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.02-16.57.54:537][333]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.02-16.57.54:537][333]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.02-16.57.54:543][333]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.02-16.57.54:543][333]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.02-16.57.54:543][333]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.02-16.57.54:543][333]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Collections/' was aborted.
+[2017.05.02-16.57.54:543][333]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Developers/Jorn/Collections/' was aborted.
+[2017.05.02-16.57.54:543][333]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Saved/Collections/' was aborted.
+[2017.05.02-16.57.54:543][333]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.02-16.57.54:543][333]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.02-16.57.54:543][333]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.02-16.57.54:544][333]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.02-16.57.55:198][333]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.02-16.57.55:199][333]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.02-16.57.55:251][333]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.02-16.57.55:252][333]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.02-16.57.55:438][333]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.02-16.57.55:440][333]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.02-16.57.55:440][333]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.02-16.57.55:440][333]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.02-16.57.55:441][333]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.02-16.57.55:443][333]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.02-16.57.55:443][333]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.02-16.57.55:443][333]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.02-16.57.55:443][333]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.02-16.57.55:543][333]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.02-16.57.55:644][333]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.02-16.57.55:645][333]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.02-16.57.55:645][333]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.02-16.57.55:645][333]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.02-16.57.55:645][333]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.02-16.57.55:648][333]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.02-16.57.55:648][333]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.02-16.57.55:648][333]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.02-16.57.55:648][333]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.02-16.57.55:648][333]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.02-16.57.55:648][333]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.02-16.57.55:791][333]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.02-16.57.55:791][333]LogDirectoryWatcher: A directory notification for '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/' was aborted.
+[2017.05.02-16.57.55:791][333]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.02-16.57.55:792][333]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.02-16.57.55:797][333]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.02-16.57.55:797][333]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.02-16.57.55:797][333]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.02-16.57.55:797][333]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.02-16.57.55:798][333]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.02-16.57.55:798][333]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.02-16.57.55:798][333]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.02-16.57.55:798][333]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.02-16.57.55:890][333]LogDerivedDataCache: Shutdown
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.02-16.57.55:890][333]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.02-16.57.55:891][333]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.02-16.57.55:891][333]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.02-16.57.55:891][333]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.02-16.57.55:891][333]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4BB0274-4C64-6932-4844-8F92281AAB32%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=7afd5da54138cf975385b1b79ce0e48c%7Ce72e3b1d3ed940ce8374baf3a3a16f54%7Cd01376f7-cdc9-429a-a070-f0574ff35c93&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.02-16.57.55:911][333]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.02-16.57.55:913][333]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.02-16.57.55:913][333]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.02-16.57.55:913][333]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.02-16.57.55:913][333]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.02-16.57.55:913][333]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.02-16.57.55:917][333]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.02-16.57.55:918][333]LogExit: Exiting.
+[2017.05.02-16.57.55:929][333]Log file closed, 05/02/17 18:57:55
