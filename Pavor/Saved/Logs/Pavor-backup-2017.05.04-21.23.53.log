@@ -1,0 +1,1309 @@
+﻿Log file open, 05/04/17 20:47:24
+LogInit:Display: Running engine for game: Pavor
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-798595614) SRandInit(-798595614).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079575
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.04-18.47.25:400][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-18.47.25:400][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.04-18.47.25:423][  0]LogInit: Computer: PC1
+[2017.05.04-18.47.25:423][  0]LogInit: User: Jorn
+[2017.05.04-18.47.25:423][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.04-18.47.25:423][  0]LogInit: High frequency timer resolution =3.117793 MHz
+[2017.05.04-18.47.25:423][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.04-18.47.25:423][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.04-18.47.25:423][  0]LogMemory: Process Physical Memory: 262.98 MB used, 262.98 MB peak
+[2017.05.04-18.47.25:423][  0]LogMemory: Process Virtual Memory: 262.69 MB used, 262.69 MB peak
+[2017.05.04-18.47.25:423][  0]LogMemory: Physical Memory: 5613.29 MB used,  2531.14 MB free, 8144.44 MB total
+[2017.05.04-18.47.25:423][  0]LogMemory: Virtual Memory: 630.32 MB used,  2531.14 MB free, 134217728.00 MB total
+[2017.05.04-18.47.25:493][  0]LogTextLocalizationManager: No translations for ('nl-BE') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.04-18.47.26:260][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.04-18.47.26:293][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.05.04-18.47.26:293][  0]LogD3D11RHI:       4059/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.04-18.47.26:295][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.04-18.47.26:295][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.04-18.47.26:295][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.04-18.47.26:301][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.04-18.47.26:301][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.04-18.47.26:301][  0]LogWindows: EnumDisplayDevices:
+[2017.05.04-18.47.26:301][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.05.04-18.47.26:301][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2017.05.04-18.47.26:301][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.05.04-18.47.26:301][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.05.04-18.47.26:302][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.04-18.47.26:302][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.05.04-18.47.26:302][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.04-18.47.26:302][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.04-18.47.26:302][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.04-18.47.26:318][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.04-18.47.26:318][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.04-18.47.26:329][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.04-18.47.26:436][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../D Drive/HorroFPSS/Pavor/Pavor/Intermediate/Shaders/WorkingDirectory/9724/).
+[2017.05.04-18.47.26:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jorn/AppData/Local/Temp/UnrealShaderWorkingDir/D46039114F26508A9D285AB21D267B0D/'.
+[2017.05.04-18.47.26:436][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.04-18.47.27:684][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.04-18.47.27:738][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.04-18.47.27:792][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.04-18.47.27:847][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.04-18.47.27:901][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.04-18.47.27:955][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.04-18.47.28:008][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.04-18.47.28:061][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.04-18.47.28:104][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.04-18.47.28:158][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.04-18.47.28:210][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.04-18.47.28:263][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.04-18.47.28:316][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.04-18.47.28:374][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.04-18.47.28:434][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.04-18.47.28:550][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.04-18.47.28:550][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.04-18.47.28:587][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.04-18.47.28:682][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.04-18.47.28:713][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.04-18.47.28:767][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.04-18.47.28:819][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.04-18.47.28:874][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.04-18.47.28:932][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.04-18.47.28:932][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.04-18.47.29:380][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.04-18.47.29:437][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.04-18.47.29:438][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.04-18.47.29:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../D Drive/HorroFPSS/Pavor/Pavor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.04-18.47.29:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.04-18.47.29:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../D Drive/HorroFPSS/Pavor/Pavor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.04-18.47.29:438][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.04-18.47.29:458][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.04-18.47.29:470][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jorn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.04-18.47.29:480][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.04-18.47.29:481][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-18.47.29:481][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-18.47.29:799][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-18.47.29:801][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.04-18.47.30:020][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.04-18.47.30:061][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.04-18.47.30:107][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.04-18.47.30:107][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.04-18.47.30:107][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.04-18.47.30:672][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: pavor, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2027194026
+[2017.05.04-18.47.30:712][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.05.04-18.47.30:841][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.113488 seconds
+[2017.05.04-18.47.30:850][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.04-18.47.30:850][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.04-18.47.30:850][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.04-18.47.30:901][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.04-18.47.32:717][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.04-18.47.32:751][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.04-18.47.33:195][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.04-18.47.33:572][  0]SourceControl: Info Source control is disabled
+[2017.05.04-18.47.36:151][  0]LogEngine: Initializing Engine...
+[2017.05.04-18.47.36:152][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.04-18.47.36:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.04-18.47.36:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.04-18.47.36:417][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.04-18.47.36:433][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.47.36:448][  0]LogInit: FAudioDevice initialized.
+[2017.05.04-18.47.36:478][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Jorn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.04-18.47.36:484][  0]LogInit: Texture streaming: Enabled
+[2017.05.04-18.47.36:556][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.04-18.47.36:650][  0]LogInit: Transaction tracking system initialized
+[2017.05.04-18.47.37:032][  0]BlueprintLog: New page: Editor Load
+[2017.05.04-18.47.37:896][  0]LocalizationService: Info Localization service is disabled
+[2017.05.04-18.47.38:574][  0]LogConsoleResponse:Display: 
+[2017.05.04-18.47.38:714][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.04-18.47.38:714][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.04-18.47.39:887][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/' took 0.03s
+[2017.05.04-18.47.40:313][  0]Cmd: MAP LOAD FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.04-18.47.40:314][  0]LightingResults: New page: Lighting Build
+[2017.05.04-18.47.40:353][  0]MapCheck: New page: Map Check
+[2017.05.04-18.47.40:354][  0]LightingResults: New page: Lighting Build
+[2017.05.04-18.47.41:984][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.04-18.47.42:011][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-18.47.42:012][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-18.47.42:103][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.346ms to complete.
+[2017.05.04-18.47.42:103][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.790
+[2017.05.04-18.47.42:179][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-18.47.42:381][  0]LogCollectionManager: Loaded 0 collections in 0.001329 seconds
+[2017.05.04-18.47.42:461][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Saved/Collections/' took 0.01s
+[2017.05.04-18.47.42:461][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Developers/Jorn/Collections/' took 0.01s
+[2017.05.04-18.47.42:461][  0]LogFileCache: Scanning file cache for directory 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Collections/' took 0.01s
+[2017.05.04-18.47.42:461][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.04-18.47.42:471][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2245 classes and 453 folders.
+[2017.05.04-18.47.42:533][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.04-18.47.45:457][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.05.04-18.47.45:605][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.04-18.47.45:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.04-18.47.45:764][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.04-18.47.45:827][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.04-18.47.45:827][  0]LogLoad: (Engine Initialization) Total time: 22.62 seconds
+[2017.05.04-18.47.45:827][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.05.04-18.47.45:827][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.04-18.47.45:827][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.04-18.47.45:837][  0]LogOcInput: OculusInput pre-init called
+[2017.05.04-18.47.45:895][  0]SourceControl: Info On branch master
+[2017.05.04-18.47.45:895][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.04-18.47.45:895][  0]SourceControl: Info Changes not staged for commit:
+[2017.05.04-18.47.45:895][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.04-18.47.45:895][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.04-18.47.45:895][  0]SourceControl: Info 	modified:   Pavor/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.04-18.47.45:895][  0]SourceControl: Info 	modified:   Pavor/Saved/Config/Windows/Engine.ini
+[2017.05.04-18.47.45:895][  0]SourceControl: Info 	modified:   Pavor/Saved/Logs/Pavor.log
+[2017.05.04-18.47.45:895][  0]SourceControl: Info Untracked files:
+[2017.05.04-18.47.45:895][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.04-18.47.45:895][  0]SourceControl: Info 	Pavor/Saved/Logs/Pavor-backup-2017.05.04-20.47.24.log
+[2017.05.04-18.47.45:895][  0]SourceControl: Info 	Pavor/Saved/Logs/UE4CC-Windows-53F5F1414B725DBB9015D78B85A646DA/
+[2017.05.04-18.47.45:895][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.04-18.47.45:896][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.04-18.47.45:897][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.04-18.47.45:901][  0]LogSlate: Took 0.000438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.04-18.47.45:936][  0]LogSlate: Took 0.030145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.04-18.47.46:143][  0]LogRenderer: Reallocating scene render targets to support 1212x644 NumSamples 1 (Frame:2).
+[2017.05.04-18.47.46:231][  1]LogSlate: Took 0.013798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-18.47.46:915][ 62]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-18.47.55:488][715]LogAssetRegistry: Asset discovery search completed in 24.7973 seconds
+[2017.05.04-18.47.55:488][715]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.05.04-18.47.55:488][715]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2017.05.04-18.49.01:683][978]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.49.01:742][978]LogTemp:Display: Added material ShaderMap 0x00000198BD8D0480 with Material 0x00000198BDFB6F80 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.01:853][978]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198BD8D0480
+[2017.05.04-18.49.01:969][978]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-18.49.02:090][978]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.49.02:091][978]LogTemp:Display: Added material ShaderMap 0x00000198BDC86780 with Material 0x00000198BDC57880 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.02:102][978]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198BDC86780
+[2017.05.04-18.49.03:076][978]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.49.03:077][978]LogTemp:Display: Added material ShaderMap 0x000001989766D980 with Material 0x00000198BDC57880 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.03:088][978]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x000001989766D980
+[2017.05.04-18.49.03:089][978]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-18.49.03:124][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.04-18.49.03:125][978]LogTemp:Display: Added material ShaderMap 0x00000198A5B15600 with Material 0x00000198A5AE7A00 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.03:127][978]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000198A5B15600
+[2017.05.04-18.49.03:129][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.05.04-18.49.03:130][978]LogTemp:Display: Added material ShaderMap 0x00000198A302B580 with Material 0x00000198A5AE7400 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.03:132][978]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x00000198A302B580
+[2017.05.04-18.49.03:134][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2017.05.04-18.49.03:135][978]LogTemp:Display: Added material ShaderMap 0x00000198A3029D00 with Material 0x00000198A5AE6800 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.03:137][978]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, GameThreadShaderMap 0x00000198A3029D00
+[2017.05.04-18.49.03:139][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.05.04-18.49.03:139][978]LogTemp:Display: Added material ShaderMap 0x00000198A3028480 with Material 0x00000198A5AE5F00 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.03:141][978]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_5, GameThreadShaderMap 0x00000198A3028480
+[2017.05.04-18.49.03:143][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.05.04-18.49.03:144][978]LogTemp:Display: Added material ShaderMap 0x00000198A5A7AB00 with Material 0x00000198A5AE5600 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.03:146][978]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_6, GameThreadShaderMap 0x00000198A5A7AB00
+[2017.05.04-18.49.03:295][978]LogSlate: Took 0.030464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.04-18.49.06:024][ 90]LogTemp:Display: Finished compile of shader map 0x00000198BD8D0480
+[2017.05.04-18.49.06:024][ 90]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x00000198BD8D0480, marking material _Terrain_Mat as finished
+[2017.05.04-18.49.06:024][ 90]LogTemp:Display: Marking material as finished 0x00000198BDFB6F80
+[2017.05.04-18.49.07:605][202]LogTemp:Display: Finished compile of shader map 0x000001989766D980
+[2017.05.04-18.49.07:605][202]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x000001989766D980, marking material _Terrain_Mat as finished
+[2017.05.04-18.49.07:605][202]LogTemp:Display: Marking material as finished 0x00000198BDC57880
+[2017.05.04-18.49.07:836][220]LogTemp:Display: Finished compile of shader map 0x00000198A5B15600
+[2017.05.04-18.49.07:836][220]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x00000198A5B15600, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.05.04-18.49.07:836][220]LogTemp:Display: Marking material as finished 0x00000198A5AE7A00
+[2017.05.04-18.49.07:993][232]MaterialEditorStats: Info Base pass shader with static lighting: 137 instructions
+[2017.05.04-18.49.07:993][232]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 111 instructions
+[2017.05.04-18.49.07:993][232]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.04-18.49.07:993][232]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.05.04-18.49.08:210][247]LogTemp:Display: Finished compile of shader map 0x00000198A302B580
+[2017.05.04-18.49.08:210][247]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x00000198A302B580, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2017.05.04-18.49.08:210][247]LogTemp:Display: Marking material as finished 0x00000198A5AE7400
+[2017.05.04-18.49.08:449][266]LogTemp:Display: Finished compile of shader map 0x00000198A3029D00
+[2017.05.04-18.49.08:449][266]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 complete, GameThreadShaderMap 0x00000198A3029D00, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 as finished
+[2017.05.04-18.49.08:449][266]LogTemp:Display: Marking material as finished 0x00000198A5AE6800
+[2017.05.04-18.49.08:892][299]LogTemp:Display: Finished compile of shader map 0x00000198A3028480
+[2017.05.04-18.49.08:892][299]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_5 complete, GameThreadShaderMap 0x00000198A3028480, marking material FMatExpressionPreview MaterialExpressionTextureSample_5 as finished
+[2017.05.04-18.49.08:892][299]LogTemp:Display: Marking material as finished 0x00000198A5AE5F00
+[2017.05.04-18.49.09:060][312]LogTemp:Display: Finished compile of shader map 0x00000198A5A7AB00
+[2017.05.04-18.49.09:060][312]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_6 complete, GameThreadShaderMap 0x00000198A5A7AB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_6 as finished
+[2017.05.04-18.49.09:060][312]LogTemp:Display: Marking material as finished 0x00000198A5AE5600
+[2017.05.04-18.49.12:489][606]LogAIModule: Creating AISystem for world NewWorld
+[2017.05.04-18.49.12:538][606]Cmd: MAP LOAD FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.04-18.49.12:538][606]LightingResults: New page: Lighting Build
+[2017.05.04-18.49.12:540][606]LoadErrors: New page: Loading map: NewWorld.umap
+[2017.05.04-18.49.12:575][606]MapCheck: New page: Map Check
+[2017.05.04-18.49.12:575][606]LightingResults: New page: Lighting Build
+[2017.05.04-18.49.12:650][606]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-18.49.12:680][606]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-18.49.12:765][606]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.93ms to complete.
+[2017.05.04-18.49.12:766][606]LogFileHelpers: Loading map 'NewWorld' took 0.237
+[2017.05.04-18.49.19:016][130]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512) - 120 MB total VRAM
+[2017.05.04-18.49.19:125][130]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512) - 120 MB total VRAM
+[2017.05.04-18.49.19:189][130]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 1024X128) - 120 MB total VRAM
+[2017.05.04-18.49.19:236][130]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:236][130]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:236][130]LogTexture:Display: Building textures: Texture2D_55 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:237][130]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:237][130]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:237][130]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:237][130]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:237][130]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:237][130]LogTexture:Display: Building textures: Texture2D_52 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:238][130]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:238][130]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:238][130]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:238][130]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:238][130]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:239][130]LogTexture:Display: Building textures: Texture2D_59 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:239][130]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:239][130]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:239][130]LogTexture:Display: Building textures: Texture2D_40 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:239][130]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:240][130]LogTexture:Display: Building textures: Texture2D_56 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:240][130]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:240][130]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:240][130]LogTexture:Display: Building textures: Texture2D_41 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:240][130]LogTexture:Display: Building textures: Texture2D_57 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:241][130]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:241][130]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:241][130]LogTexture:Display: Building textures: Texture2D_35 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:241][130]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:241][130]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:242][130]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:242][130]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:242][130]LogTexture:Display: Building textures: Texture2D_39 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:242][130]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:242][130]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:243][130]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:243][130]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:243][130]LogTexture:Display: Building textures: Texture2D_28 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:243][130]LogTexture:Display: Building textures: Texture2D_46 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:243][130]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:244][130]LogTexture:Display: Building textures: Texture2D_34 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:244][130]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:244][130]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:244][130]LogTexture:Display: Building textures: Texture2D_53 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:244][130]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 32X32) - 121 MB total VRAM
+[2017.05.04-18.49.19:263][130]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.49.19:264][130]LogTemp:Display: Added material ShaderMap 0x00000198CE148480 with Material 0x000001988559EE00 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.19:312][130]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198CE148480
+[2017.05.04-18.49.19:315][130]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 121 MB total VRAM
+[2017.05.04-18.49.19:329][130]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.49.19:330][130]LogTemp:Display: Added material ShaderMap 0x00000198BE435280 with Material 0x000001988559FD00 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.19:364][130]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198BE435280
+[2017.05.04-18.49.19:367][130]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.49.19:368][130]LogTemp:Display: Added material ShaderMap 0x000001989F778480 with Material 0x000001988559CE80 to ShaderMapsBeingCompiled
+[2017.05.04-18.49.19:402][130]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x000001989F778480
+[2017.05.04-18.49.19:404][130]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.49.19:454][130]Cmd: MAP LOAD FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.04-18.49.19:454][130]LightingResults: New page: Lighting Build
+[2017.05.04-18.49.19:456][130]LoadErrors: New page: Loading map: Island.umap
+[2017.05.04-18.49.19:456][130]MapCheck: New page: Map Check
+[2017.05.04-18.49.19:456][130]LightingResults: New page: Lighting Build
+[2017.05.04-18.49.19:690][130]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-18.49.19:724][130]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-18.49.19:806][130]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.823ms to complete.
+[2017.05.04-18.49.19:806][130]LogFileHelpers: Loading map 'Island' took 0.353
+[2017.05.04-18.49.24:231][439]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.49.24:301][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.49.24:368][439]PIE: New page: PIE session: Island (May 4, 2017, 10:49:24 PM)
+[2017.05.04-18.49.24:403][439]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.49.24:474][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071193s)
+[2017.05.04-18.49.24:474][439]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.49.24:475][439]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.05.04-18.49.24:487][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.091470s)
+[2017.05.04-18.49.24:528][439]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.49.24:539][439]LogInit: FAudioDevice initialized.
+[2017.05.04-18.49.24:694][439]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.49.24:832][439]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.49.24
+[2017.05.04-18.49.24:868][439]LogWorld: Bringing up level for play took: 0.038885
+[2017.05.04-18.49.25:070][439]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.05.04-18.49.25:202][439]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 1.221
+[2017.05.04-18.49.28:045][635]LogTemp:Display: Finished compile of shader map 0x00000198CE148480
+[2017.05.04-18.49.28:045][635]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x00000198CE148480, marking material _Terrain_Mat as finished
+[2017.05.04-18.49.28:045][635]LogTemp:Display: Marking material as finished 0x000001988559EE00
+[2017.05.04-18.49.36:034][255]LogTemp:Display: Finished compile of shader map 0x00000198BE435280
+[2017.05.04-18.49.36:034][255]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x00000198BE435280, marking material _Terrain_Mat as finished
+[2017.05.04-18.49.36:034][255]LogTemp:Display: Marking material as finished 0x000001988559FD00
+[2017.05.04-18.49.44:350][936]LogTemp:Display: Finished compile of shader map 0x000001989F778480
+[2017.05.04-18.49.44:350][936]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x000001989F778480, marking material _Terrain_Mat as finished
+[2017.05.04-18.49.44:350][936]LogTemp:Display: Marking material as finished 0x000001988559CE80
+[2017.05.04-18.49.59:974][305]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.49.59:982][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.49.59:982][305]PIE: New page: PIE session: Island (May 4, 2017, 10:49:59 PM)
+[2017.05.04-18.49.59:982][305]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.49.59:994][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011814s)
+[2017.05.04-18.49.59:995][305]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.49.59:995][305]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2017.05.04-18.49.59:995][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.012955s)
+[2017.05.04-18.50.00:013][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.50.00:023][305]LogInit: FAudioDevice initialized.
+[2017.05.04-18.50.00:052][305]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.50.00:056][305]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.50.00
+[2017.05.04-18.50.00:056][305]LogWorld: Bringing up level for play took: 0.003181
+[2017.05.04-18.50.00:057][305]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 0.077
+[2017.05.04-18.50.21:603][ 32]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.50.21:612][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.50.21:612][ 32]PIE: New page: PIE session: Island (May 4, 2017, 10:50:21 PM)
+[2017.05.04-18.50.21:612][ 32]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.50.21:624][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012347s)
+[2017.05.04-18.50.21:625][ 32]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.50.21:625][ 32]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.05.04-18.50.21:625][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013428s)
+[2017.05.04-18.50.21:675][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.50.21:686][ 32]LogInit: FAudioDevice initialized.
+[2017.05.04-18.50.21:722][ 32]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.50.21:726][ 32]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.50.21
+[2017.05.04-18.50.21:726][ 32]LogWorld: Bringing up level for play took: 0.003352
+[2017.05.04-18.50.21:727][ 32]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.253
+[2017.05.04-18.50.50:964][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-18.50.50:965][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-18.50.50:966][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-18.50.50:967][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.05.04-18.50.50:967][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.05.04-18.50.50:968][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.05.04-18.50.50:968][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-18.50.50:978][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0207.77] Compile of FirstPersonCharacter successful, but with 7 Warning(s) [in 66 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-18.50.50:978][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0207.77] Compile of FirstPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-18.50.50:978][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0207.77] Compile of FirstPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-18.50.51:054][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-18.50.51:054][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-18.50.51:055][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-18.50.51:055][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.05.04-18.50.51:055][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.05.04-18.50.51:056][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.05.04-18.50.51:056][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-18.50.51:062][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0207.85] Compile of FirstPersonCharacter successful, but with 7 Warning(s) [in 17 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-18.50.51:062][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0207.85] Compile of FirstPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-18.50.51:062][265]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0207.85] Compile of FirstPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-18.50.58:638][721]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.50.58:647][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.50.58:647][721]PIE: New page: PIE session: Island (May 4, 2017, 10:50:58 PM)
+[2017.05.04-18.50.58:647][721]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.50.58:660][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012303s)
+[2017.05.04-18.50.58:660][721]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.50.58:660][721]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2017.05.04-18.50.58:660][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013194s)
+[2017.05.04-18.50.58:679][721]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.50.58:689][721]LogInit: FAudioDevice initialized.
+[2017.05.04-18.50.58:721][721]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.50.58:725][721]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.50.58
+[2017.05.04-18.50.58:854][721]LogWorld: Bringing up level for play took: 0.132404
+[2017.05.04-18.50.58:858][721]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 0.877
+[2017.05.04-18.51.17:457][ 27]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.51.17:465][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.51.17:465][ 27]PIE: New page: PIE session: Island (May 4, 2017, 10:51:17 PM)
+[2017.05.04-18.51.17:465][ 27]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.51.17:478][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012524s)
+[2017.05.04-18.51.17:478][ 27]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.51.17:479][ 27]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2017.05.04-18.51.17:479][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013611s)
+[2017.05.04-18.51.17:525][ 27]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.51.17:534][ 27]LogInit: FAudioDevice initialized.
+[2017.05.04-18.51.17:564][ 27]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.51.17:569][ 27]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.51.17
+[2017.05.04-18.51.17:569][ 27]LogWorld: Bringing up level for play took: 0.004069
+[2017.05.04-18.51.17:571][ 27]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.41
+[2017.05.04-18.51.49:101][316]LogSlate: Took 0.016969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.04-18.52.08:334][733]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.04-18.52.08:344][733]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.04-18.52.09:825][850]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.52.09:833][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.52.09:833][850]PIE: New page: PIE session: Island (May 4, 2017, 10:52:09 PM)
+[2017.05.04-18.52.09:833][850]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.52.09:847][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013472s)
+[2017.05.04-18.52.09:847][850]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.52.09:848][850]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.05.04-18.52.09:848][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.014727s)
+[2017.05.04-18.52.09:866][850]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.52.09:876][850]LogInit: FAudioDevice initialized.
+[2017.05.04-18.52.09:908][850]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.52.09:912][850]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.52.09
+[2017.05.04-18.52.09:912][850]LogWorld: Bringing up level for play took: 0.003463
+[2017.05.04-18.52.09:914][850]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.067
+[2017.05.04-18.52.18:809][517]Cmd: TRANSACTION UNDO
+[2017.05.04-18.52.18:809][517]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.04-18.52.18:881][517]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.52.18:883][517]LogTemp:Display: Added material ShaderMap 0x00000198AF213C80 with Material 0x00000198BDC57880 to ShaderMapsBeingCompiled
+[2017.05.04-18.52.18:897][517]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198AF213C80
+[2017.05.04-18.52.18:897][517]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-18.52.19:644][548]Cmd: TRANSACTION UNDO
+[2017.05.04-18.52.19:644][548]LogEditorTransaction: Undo Delete selection
+[2017.05.04-18.52.19:734][548]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.52.19:735][548]LogTemp:Display: Added material ShaderMap 0x00000198B39A8480 with Material 0x00000198BDC57880 to ShaderMapsBeingCompiled
+[2017.05.04-18.52.19:746][548]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198B39A8480
+[2017.05.04-18.52.19:746][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-18.52.19:927][554]LogTemp:Display: Finished compile of shader map 0x00000198AF213C80
+[2017.05.04-18.52.19:927][554]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x00000198AF213C80, marking material _Terrain_Mat as finished
+[2017.05.04-18.52.19:927][554]LogTemp:Display: Marking material as finished 0x00000198BDC57880
+[2017.05.04-18.52.22:131][660]LogTemp:Display: Finished compile of shader map 0x00000198B39A8480
+[2017.05.04-18.52.22:131][660]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x00000198B39A8480, marking material _Terrain_Mat as finished
+[2017.05.04-18.52.22:131][660]LogTemp:Display: Marking material as finished 0x00000198BDC57880
+[2017.05.04-18.52.22:463][661]MaterialEditorStats: Info Base pass shader with static lighting: 137 instructions
+[2017.05.04-18.52.22:463][661]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 111 instructions
+[2017.05.04-18.52.22:463][661]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.04-18.52.22:463][661]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.05.04-18.53.34:507][526]Cmd: DELETE
+[2017.05.04-18.53.34:514][526]Cmd: ACTOR DELETE
+[2017.05.04-18.53.34:725][526]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.04-18.53.34:734][526]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.05.04-18.53.37:855][765]EditorErrors: New page: Actor attachment
+[2017.05.04-18.53.39:291][864]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.53.39:299][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.53.39:300][864]PIE: New page: PIE session: Island (May 4, 2017, 10:53:39 PM)
+[2017.05.04-18.53.39:300][864]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.53.39:313][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013373s)
+[2017.05.04-18.53.39:314][864]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.53.39:314][864]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2017.05.04-18.53.39:314][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.014533s)
+[2017.05.04-18.53.39:354][864]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.53.39:365][864]LogInit: FAudioDevice initialized.
+[2017.05.04-18.53.39:393][864]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.53.39:416][864]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.53.39
+[2017.05.04-18.53.39:417][864]LogWorld: Bringing up level for play took: 0.021709
+[2017.05.04-18.53.39:418][864]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.562
+[2017.05.04-18.53.44:632][250]EditorErrors: New page: Actor attachment
+[2017.05.04-18.53.54:347][929]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.04-18.53.54:356][929]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.05.04-18.53.55:208][  2]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.53.55:217][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.53.55:217][  2]PIE: New page: PIE session: Island (May 4, 2017, 10:53:55 PM)
+[2017.05.04-18.53.55:217][  2]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.53.55:229][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012069s)
+[2017.05.04-18.53.55:230][  2]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.53.55:230][  2]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2017.05.04-18.53.55:230][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013070s)
+[2017.05.04-18.53.55:247][  2]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.53.55:257][  2]LogInit: FAudioDevice initialized.
+[2017.05.04-18.53.55:284][  2]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.53.55:289][  2]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.53.55
+[2017.05.04-18.53.55:289][  2]LogWorld: Bringing up level for play took: 0.003828
+[2017.05.04-18.53.55:290][  2]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.691
+[2017.05.04-18.53.57:061][149]Cmd: TRANSACTION UNDO
+[2017.05.04-18.53.57:061][149]LogEditorTransaction: Undo Delete selection
+[2017.05.04-18.53.57:078][149]LogMaterial: Missing cached shader map for material _Terrain_Mat, compiling. 
+[2017.05.04-18.53.57:079][149]LogTemp:Display: Added material ShaderMap 0x00000198D86D5D00 with Material 0x00000198BDC57880 to ShaderMapsBeingCompiled
+[2017.05.04-18.53.57:088][149]LogTemp:Display: Kicking off shader compilation for _Terrain_Mat, GameThreadShaderMap 0x00000198D86D5D00
+[2017.05.04-18.53.57:089][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-18.53.59:855][340]LogTemp:Display: Finished compile of shader map 0x00000198D86D5D00
+[2017.05.04-18.53.59:855][340]LogTemp:Display: Shader map _Terrain_Mat complete, GameThreadShaderMap 0x00000198D86D5D00, marking material _Terrain_Mat as finished
+[2017.05.04-18.53.59:855][340]LogTemp:Display: Marking material as finished 0x00000198BDC57880
+[2017.05.04-18.53.59:870][341]MaterialEditorStats: Info Base pass shader with static lighting: 137 instructions
+[2017.05.04-18.53.59:870][341]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 111 instructions
+[2017.05.04-18.53.59:870][341]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.04-18.53.59:870][341]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.05.04-18.55.19:624][766]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.04-18.57.02:186][626]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.04-18.57.05:662][ 14]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.57.05:671][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.57.05:672][ 14]PIE: New page: PIE session: Island (May 4, 2017, 10:57:05 PM)
+[2017.05.04-18.57.05:672][ 14]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.57.05:685][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012944s)
+[2017.05.04-18.57.05:686][ 14]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.57.05:686][ 14]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2017.05.04-18.57.05:686][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.014331s)
+[2017.05.04-18.57.05:695][ 14]LogTemp:Display: Removed shader map 0x00000198BDC86780 from material 0x00000198BDC57880
+[2017.05.04-18.57.05:706][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.57.05:716][ 14]LogInit: FAudioDevice initialized.
+[2017.05.04-18.57.05:745][ 14]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.04-18.57.05:750][ 14]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.57.05
+[2017.05.04-18.57.05:751][ 14]LogWorld: Bringing up level for play took: 0.003941
+[2017.05.04-18.57.05:802][ 14]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.179
+[2017.05.04-18.57.11:954][678]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.04-18.57.12:590][744]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2017.05.04-18.57.13:423][837]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.57.13:432][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.57.13:432][837]PIE: New page: PIE session: Island (May 4, 2017, 10:57:13 PM)
+[2017.05.04-18.57.13:432][837]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.57.13:447][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015220s)
+[2017.05.04-18.57.13:448][837]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.57.13:448][837]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.05.04-18.57.13:448][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.016143s)
+[2017.05.04-18.57.13:467][837]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.57.13:477][837]LogInit: FAudioDevice initialized.
+[2017.05.04-18.57.13:508][837]LogLoad: Game class is 'GameModeBase'
+[2017.05.04-18.57.13:512][837]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.57.13
+[2017.05.04-18.57.13:513][837]LogWorld: Bringing up level for play took: 0.003521
+[2017.05.04-18.57.13:514][837]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.467
+[2017.05.04-18.57.18:009][331]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.57.18:018][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.57.18:018][331]PIE: New page: PIE session: Island (May 4, 2017, 10:57:18 PM)
+[2017.05.04-18.57.18:018][331]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.57.18:030][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012436s)
+[2017.05.04-18.57.18:032][331]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.57.18:032][331]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2017.05.04-18.57.18:032][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013966s)
+[2017.05.04-18.57.18:049][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.57.18:058][331]LogInit: FAudioDevice initialized.
+[2017.05.04-18.57.18:087][331]LogLoad: Game class is 'FunctionalTestGameMode'
+[2017.05.04-18.57.18:092][331]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.57.18
+[2017.05.04-18.57.18:092][331]LogWorld: Bringing up level for play took: 0.003459
+[2017.05.04-18.57.18:093][331]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 0.112
+[2017.05.04-18.57.26:073][221]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.57.26:082][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.57.26:082][221]PIE: New page: PIE session: Island (May 4, 2017, 10:57:26 PM)
+[2017.05.04-18.57.26:082][221]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.57.26:094][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012363s)
+[2017.05.04-18.57.26:095][221]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.57.26:095][221]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2017.05.04-18.57.26:095][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013567s)
+[2017.05.04-18.57.26:112][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.57.26:122][221]LogInit: FAudioDevice initialized.
+[2017.05.04-18.57.26:149][221]LogLoad: Game class is 'GameMode'
+[2017.05.04-18.57.26:153][221]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.57.26
+[2017.05.04-18.57.26:154][221]LogWorld: Bringing up level for play took: 0.003733
+[2017.05.04-18.57.26:154][221]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.04-18.57.26:168][221]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.04-18.57.26:168][221]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.04-18.57.26:168][221]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.04-18.57.26:169][221]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 0.188
+[2017.05.04-18.57.44:662][147]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.57.44:672][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.57.44:672][147]PIE: New page: PIE session: Island (May 4, 2017, 10:57:44 PM)
+[2017.05.04-18.57.44:672][147]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.57.44:685][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012459s)
+[2017.05.04-18.57.44:685][147]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.57.44:686][147]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2017.05.04-18.57.44:686][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013569s)
+[2017.05.04-18.57.44:703][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.57.44:713][147]LogInit: FAudioDevice initialized.
+[2017.05.04-18.57.44:744][147]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.04-18.57.44:748][147]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.57.44
+[2017.05.04-18.57.44:749][147]LogWorld: Bringing up level for play took: 0.003574
+[2017.05.04-18.57.44:750][147]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 0.77
+[2017.05.04-18.57.51:985][961]Set new viewmode: Wireframe
+[2017.05.04-18.57.52:614][ 31]Set new viewmode: Wireframe
+[2017.05.04-18.58.11:416][200]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-18.58.11:425][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-18.58.11:425][200]PIE: New page: PIE session: Island (May 4, 2017, 10:58:11 PM)
+[2017.05.04-18.58.11:426][200]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-18.58.11:438][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012418s)
+[2017.05.04-18.58.11:439][200]LogAIModule: Creating AISystem for world Island
+[2017.05.04-18.58.11:439][200]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.05.04-18.58.11:439][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.013817s)
+[2017.05.04-18.58.11:460][200]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-18.58.11:469][200]LogInit: FAudioDevice initialized.
+[2017.05.04-18.58.11:499][200]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.04-18.58.11:503][200]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-20.58.11
+[2017.05.04-18.58.11:503][200]LogWorld: Bringing up level for play took: 0.003536
+[2017.05.04-18.58.11:505][200]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.476
+[2017.05.04-18.58.17:069][703]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.04-18.58.17:580][703]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.05.04-18.58.54:017][124]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.04-18.58.54:035][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-18.58.54:036][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-18.58.54:036][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-18.58.54:036][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.05.04-18.58.54:036][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.05.04-18.58.54:036][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.05.04-18.58.54:037][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.05.04-18.58.54:383][124]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-18.58.54:383][124]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0691.17] Compile of FirstPersonCharacter successful, but with 7 Warning(s) [in 365 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-19.00.46:676][567]LogWindows: LaunchFileInExternalEditor D:/Program Files (x86)/UE_4.15/Engine/Source/Runtime/Engine/Classes/GameFramework/DefaultPawn.h 
+[2017.05.04-19.00.47:434][567]LogWindows: Launch application code for D:/Program Files (x86)/UE_4.15/Engine/Source/Runtime/Engine/Classes/GameFramework/DefaultPawn.h : 42
+[2017.05.04-19.00.47:434][567]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.05.04-19.00.47:442][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:442][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:442][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:443][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:444][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:445][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:446][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:447][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:448][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:449][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:450][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:493][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:497][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:497][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:541][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.47:556][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:181][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:194][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:198][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:204][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:204][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:204][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:204][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:204][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:205][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:205][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:205][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:205][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:205][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:205][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:206][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:206][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:206][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:206][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:206][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:206][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:207][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:207][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:207][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:207][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:208][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:208][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:208][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:208][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:208][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:208][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:209][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:209][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:209][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:209][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:209][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:209][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:210][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:210][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:210][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:210][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:210][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:210][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:211][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:211][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:211][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:211][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:211][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:211][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:212][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:212][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:212][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:212][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:212][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:212][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:213][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:213][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:213][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:213][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:213][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:213][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:214][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:214][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:214][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:214][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:214][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:214][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:215][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:215][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:215][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:215][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:216][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:216][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:216][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:216][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:216][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:217][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:217][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:233][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:236][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:236][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:261][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:266][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:287][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:289][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:292][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:293][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:294][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:295][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:296][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:297][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:297][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:297][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:297][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:300][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:301][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:301][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:310][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:313][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:329][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:330][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:331][567]LogVSAccessor:Warning: Couldn't access module table
+[2017.05.04-19.00.48:546][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Autosaves/Game/Levels/Island_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.04-19.00.49:014][568]LogSavePackage: Save=426.07ms
+[2017.05.04-19.00.49:014][568]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Island_Auto1FF389C064FBD234E7FFAE797897D5D01.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Autosaves/Game/Levels/Island_Auto1.umap'
+[2017.05.04-19.00.49:017][568]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Autosaves/Game/Levels/Island_Auto1.umap
+[2017.05.04-19.00.49:223][568]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Island' took 0.809
+[2017.05.04-19.00.49:223][568]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.809
+[2017.05.04-19.01.28:389][305]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.04-19.01.28:531][306]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pavor
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display: CWD: D:\Program Files (x86)\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display: Initial Dir: D:\Program Files (x86)\UE_4.15
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display: Env CWD: D:\Program Files (x86)\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display: BranchPath = PC1/D/Program Files (x86)/UE_4.15/Engine/Binaries --- GameBranchPath = PC1/D/Program Files (x86)/UE_4.15/Engine/Binaries
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Kan een gedeelte van het pad C:\Users\Jorn\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles niet vinden.
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display:    bij System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display:    bij System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display:    bij System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display:    bij iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.04-19.01.28:531][306]LogTemp:Display:    bij iPhonePackager.Program.Main(String[] args)
+
+[2017.05.04-19.05.09:150][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.04-19.05.20:116][485]LogRenderer: Reallocating scene render targets to support 1212x696 NumSamples 1 (Frame:82915).
+[2017.05.04-19.05.59:301][624]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.04-19.05.59:357][625]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pavor
+
+[2017.05.04-19.05.59:357][625]LogTemp:Display: CWD: D:\Program Files (x86)\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.04-19.05.59:357][625]LogTemp:Display: Initial Dir: D:\Program Files (x86)\UE_4.15
+
+[2017.05.04-19.05.59:357][625]LogTemp:Display: Env CWD: D:\Program Files (x86)\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.04-19.05.59:375][626]LogTemp:Display: BranchPath = PC1/D/Program Files (x86)/UE_4.15/Engine/Binaries --- GameBranchPath = PC1/D/Program Files (x86)/UE_4.15/Engine/Binaries
+
+[2017.05.04-19.05.59:429][630]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Kan een gedeelte van het pad C:\Users\Jorn\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles niet vinden.
+
+[2017.05.04-19.05.59:429][630]LogTemp:Display:    bij System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.04-19.05.59:429][630]LogTemp:Display:    bij System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.04-19.05.59:430][630]LogTemp:Display:    bij System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.04-19.05.59:430][630]LogTemp:Display:    bij iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.04-19.05.59:430][630]LogTemp:Display:    bij iPhonePackager.Program.Main(String[] args)
+
+[2017.05.04-19.09.34:945][256]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.04-19.09.34:961][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.09.34:962][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-19.09.34:962][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-19.09.34:962][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.05.04-19.09.34:962][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.05.04-19.09.34:962][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.05.04-19.09.34:962][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.05.04-19.09.35:091][256]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-19.09.35:092][256]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [1331.88] Compile of FirstPersonCharacter successful, but with 7 Warning(s) [in 146 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-19.13.22:696][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Autosaves/Game/Levels/Island_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.04-19.13.22:954][469]LogSavePackage: Save=237.57ms
+[2017.05.04-19.13.22:954][469]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Island_Auto2E80EB4AF4671970C9C6A55BB80251941.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Autosaves/Game/Levels/Island_Auto2.umap'
+[2017.05.04-19.13.22:955][469]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Autosaves/Game/Levels/Island_Auto2.umap
+[2017.05.04-19.13.22:956][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Island' took 0.283
+[2017.05.04-19.13.22:956][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2017.05.04-19.14.36:090][825]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.04-19.14.36:106][825]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.14.36:106][825]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-19.14.36:106][825]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-19.14.36:107][825]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-19.14.36:221][825]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.14.36:221][825]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-19.14.36:221][825]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-19.14.36:221][825]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-19.14.36:222][825]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [1633.01] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 132 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-19.15.26:625][100]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.04-19.15.26:641][100]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.15.26:641][100]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-19.15.26:641][100]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-19.15.26:752][100]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.15.26:752][100]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.05.04-19.15.26:752][100]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.05.04-19.15.26:753][100]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [1683.54] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 127 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-19.15.28:123][156]LogSavePackage: Save=75.39ms
+[2017.05.04-19.15.28:123][156]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/FirstPersonCharacter287639FC43DA788AE2D0B1A85B77AD1D.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.05.04-19.15.28:125][156]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.05.04-19.19.35:383][842]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.04-19.19.35:399][842]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.19.35:514][842]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.04-19.19.35:514][842]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [1932.31] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 131 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.04-19.19.36:269][871]LogSavePackage: Save=48.25ms
+[2017.05.04-19.19.36:269][871]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/FirstPersonCharacterEE40CAF0414F3E9F0407CFB18E7892BF.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.05.04-19.19.36:270][871]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.05.04-19.19.41:761][225]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.04-19.19.42:465][253]LogSavePackage: Save=48.85ms
+[2017.05.04-19.19.42:465][253]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/FirstPersonCharacterB6668E1442CBD80D793627BBAE8489A1.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.05.04-19.19.42:467][253]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.05.04-19.19.48:145][830]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-19.19.48:155][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-19.19.48:156][830]PIE: New page: PIE session: Island (May 4, 2017, 11:19:48 PM)
+[2017.05.04-19.19.48:156][830]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-19.19.48:171][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015409s)
+[2017.05.04-19.19.48:172][830]LogAIModule: Creating AISystem for world Island
+[2017.05.04-19.19.48:172][830]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2017.05.04-19.19.48:172][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.016720s)
+[2017.05.04-19.19.48:197][830]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-19.19.48:208][830]LogInit: FAudioDevice initialized.
+[2017.05.04-19.19.48:242][830]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.04-19.19.48:247][830]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-21.19.48
+[2017.05.04-19.19.48:247][830]LogWorld: Bringing up level for play took: 0.004015
+[2017.05.04-19.19.48:249][830]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island 0.268
+[2017.05.04-19.20.11:095][226]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.04-19.20.11:105][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.04-19.20.11:105][226]PIE: New page: PIE session: Island (May 4, 2017, 11:20:11 PM)
+[2017.05.04-19.20.11:105][226]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Island
+[2017.05.04-19.20.11:116][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011638s)
+[2017.05.04-19.20.11:117][226]LogAIModule: Creating AISystem for world Island
+[2017.05.04-19.20.11:117][226]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.05.04-19.20.11:117][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Island.Island to /Game/Levels/UEDPIE_0_Island.Island (0.012634s)
+[2017.05.04-19.20.11:140][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-19.20.11:150][226]LogInit: FAudioDevice initialized.
+[2017.05.04-19.20.11:179][226]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.04-19.20.11:183][226]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Island.Island up for play (max tick rate 0) at 2017.05.04-21.20.11
+[2017.05.04-19.20.11:183][226]LogWorld: Bringing up level for play took: 0.003587
+[2017.05.04-19.20.11:185][226]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Island -0.796
+[2017.05.04-19.20.40:656][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-19.20.40:912][734]LogSavePackage: Save=220.63ms
+[2017.05.04-19.20.40:912][734]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Island8FBBEF3A40C4E0773672D3B8CA482399.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap'
+[2017.05.04-19.20.40:915][734]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island.umap
+[2017.05.04-19.20.41:027][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island_BuiltData" FILE="../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset" SILENT=true
+[2017.05.04-19.20.41:064][734]LogSavePackage: Save=33.56ms
+[2017.05.04-19.20.41:065][734]LogSavePackage: Moving '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Saved/Island_BuiltData52CCD20E42CEC106BEBB2BBD7E283441.tmp' to '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset'
+[2017.05.04-19.20.41:066][734]LogSavePackage:Display: Finished SavePackage ../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset
+[2017.05.04-19.20.49:505][577]LogUProjectInfo: Found projects:
+[2017.05.04-19.20.50:573][692]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.05.04-19.20.51:201][693]Cmd: QUIT_EDITOR
+[2017.05.04-19.20.51:419][693]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-19.20.51:498][693]LogExit: Preparing to exit.
+[2017.05.04-19.20.52:723][693]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/' was aborted.
+[2017.05.04-19.20.52:855][693]LogExit: Editor shut down
+[2017.05.04-19.20.52:857][693]LogExit: Transaction tracking system shut down
+[2017.05.04-19.20.53:024][693]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.04-19.20.53:025][693]LogExit: Object subsystem successfully closed.
+[2017.05.04-19.20.53:050][693]LogD3D11RHI: Shutdown
+[2017.05.04-19.20.53:050][693]LogD3D11RHI: CleanupD3DDevice
+[2017.05.04-19.20.53:160][693]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.04-19.20.53:203][693]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (508)
+[2017.05.04-19.20.53:203][693]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.05.04-19.20.53:203][693]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.05.04-19.20.53:210][693]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.05.04-19.20.53:218][693]LogModuleManager: Shutting down and abandoning module MaterialEditor (500)
+[2017.05.04-19.20.53:218][693]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.04-19.20.53:218][693]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.04-19.20.53:218][693]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.04-19.20.53:218][693]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.04-19.20.53:230][693]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.04-19.20.53:237][693]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.04-19.20.53:237][693]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.04-19.20.53:237][693]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.04-19.20.53:237][693]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Collections/' was aborted.
+[2017.05.04-19.20.53:237][693]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Content/Developers/Jorn/Collections/' was aborted.
+[2017.05.04-19.20.53:237][693]LogDirectoryWatcher: A directory notification for 'D:/D Drive/HorroFPSS/Pavor/Pavor/Saved/Collections/' was aborted.
+[2017.05.04-19.20.53:237][693]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.04-19.20.53:238][693]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.04-19.20.54:053][693]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.04-19.20.54:054][693]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.04-19.20.54:107][693]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.04-19.20.54:107][693]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.04-19.20.54:107][693]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.04-19.20.54:107][693]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.04-19.20.54:107][693]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.04-19.20.54:107][693]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.04-19.20.54:108][693]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.04-19.20.54:108][693]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.04-19.20.54:108][693]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.04-19.20.54:114][693]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.04-19.20.54:114][693]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.04-19.20.54:116][693]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.04-19.20.54:351][693]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.04-19.20.54:352][693]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.04-19.20.54:354][693]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.04-19.20.54:354][693]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.04-19.20.54:354][693]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.04-19.20.54:355][693]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.04-19.20.54:358][693]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.04-19.20.54:358][693]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.04-19.20.54:358][693]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.04-19.20.54:358][693]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.04-19.20.54:458][693]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.04-19.20.54:559][693]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.04-19.20.54:560][693]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.04-19.20.54:560][693]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.04-19.20.54:563][693]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.04-19.20.54:563][693]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.04-19.20.54:563][693]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.04-19.20.54:563][693]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.04-19.20.54:563][693]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.04-19.20.54:563][693]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.04-19.20.54:822][693]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.04-19.20.54:822][693]LogDirectoryWatcher: A directory notification for '../../../../../D Drive/HorroFPSS/Pavor/Pavor/Content/' was aborted.
+[2017.05.04-19.20.54:822][693]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.04-19.20.54:823][693]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.04-19.20.54:828][693]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.04-19.20.54:876][693]LogDerivedDataCache: Shutdown
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.04-19.20.54:876][693]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.04-19.20.54:877][693]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.04-19.20.54:877][693]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.04-19.20.54:878][693]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.04-19.20.54:878][693]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.04-19.20.54:878][693]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B31CE1EBB-4152-8FBB-3C78-88A0E303017B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=7afd5da54138cf975385b1b79ce0e48c%7Ce72e3b1d3ed940ce8374baf3a3a16f54%7Cd01376f7-cdc9-429a-a070-f0574ff35c93&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.04-19.20.54:880][693]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.04-19.20.54:882][693]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.04-19.20.54:882][693]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.04-19.20.54:882][693]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.04-19.20.54:882][693]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.04-19.20.54:882][693]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.04-19.20.54:898][693]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.04-19.20.54:900][693]LogExit: Exiting.
+[2017.05.04-19.20.54:913][693]Log file closed, 05/04/17 21:20:54
