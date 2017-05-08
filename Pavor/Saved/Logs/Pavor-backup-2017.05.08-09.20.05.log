@@ -1,0 +1,872 @@
+﻿Log file open, 05/04/17 16:34:23
+LogInit:Display: Running engine for game: Pavor
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-732370176) SRandInit(-732370176).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080413
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.04-22.34.24:336][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-22.34.24:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.04-22.34.24:347][  0]LogInit: Computer: MONOLITHIUM
+[2017.05.04-22.34.24:347][  0]LogInit: User: Kovadon
+[2017.05.04-22.34.24:347][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.04-22.34.24:347][  0]LogInit: High frequency timer resolution =3.428038 MHz
+[2017.05.04-22.34.24:347][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.04-22.34.24:347][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.04-22.34.24:347][  0]LogMemory: Process Physical Memory: 263.53 MB used, 263.53 MB peak
+[2017.05.04-22.34.24:347][  0]LogMemory: Process Virtual Memory: 262.85 MB used, 262.85 MB peak
+[2017.05.04-22.34.24:348][  0]LogMemory: Physical Memory: 4856.02 MB used,  11474.69 MB free, 16330.71 MB total
+[2017.05.04-22.34.24:348][  0]LogMemory: Virtual Memory: 645.12 MB used,  11474.69 MB free, 134217728.00 MB total
+[2017.05.04-22.34.24:434][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.04-22.34.24:982][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.04-22.34.25:403][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2017.05.04-22.34.25:403][  0]LogD3D11RHI:       2017/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.04-22.34.25:404][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.04-22.34.25:404][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.04-22.34.25:404][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.04-22.34.25:407][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.04-22.34.25:407][  0]LogD3D11RHI:     GPU DeviceId: 0x1189 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.04-22.34.25:407][  0]LogWindows: EnumDisplayDevices:
+[2017.05.04-22.34.25:407][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670' (P:1 D:1)
+[2017.05.04-22.34.25:408][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670' (P:0 D:1)
+[2017.05.04-22.34.25:408][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.05.04-22.34.25:408][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.05.04-22.34.25:408][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.04-22.34.25:408][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2017.05.04-22.34.25:408][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.04-22.34.25:408][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.04-22.34.25:408][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.04-22.34.25:798][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.04-22.34.25:799][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.04-22.34.25:963][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.04-22.34.26:060][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Intermediate/Shaders/WorkingDirectory/10660/).
+[2017.05.04-22.34.26:061][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kovadon/AppData/Local/Temp/UnrealShaderWorkingDir/BA1DB25047F9A64780ACF4A60AA2DA2E/'.
+[2017.05.04-22.34.26:061][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.04-22.34.27:066][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.04-22.34.27:124][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.04-22.34.27:182][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.04-22.34.27:240][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.04-22.34.27:315][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.04-22.34.27:373][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.04-22.34.27:431][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.04-22.34.27:489][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.04-22.34.27:536][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.04-22.34.27:591][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.04-22.34.27:646][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.04-22.34.27:702][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.04-22.34.27:757][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.04-22.34.27:813][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.04-22.34.27:868][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.04-22.34.27:979][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.04-22.34.27:979][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.04-22.34.28:019][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.04-22.34.28:121][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.04-22.34.28:157][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.04-22.34.28:213][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.04-22.34.28:269][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.04-22.34.28:324][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.04-22.34.28:380][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.04-22.34.28:380][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.04-22.34.28:838][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.04-22.34.28:882][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Kovadon/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.04-22.34.28:882][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kovadon/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.04-22.34.28:882][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.04-22.34.28:882][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.04-22.34.28:882][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.04-22.34.28:882][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.04-22.34.28:898][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.04-22.34.28:911][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kovadon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.04-22.34.28:920][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.04-22.34.28:920][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-22.34.28:920][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-22.34.29:235][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-22.34.29:238][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.04-22.34.29:446][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.04-22.34.29:493][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.04-22.34.29:544][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.04-22.34.29:544][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.04-22.34.29:544][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.04-22.34.30:041][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: pavor, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2027194026
+[2017.05.04-22.34.30:089][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.05.04-22.34.30:144][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025867 seconds
+[2017.05.04-22.34.30:149][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.04-22.34.30:149][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.04-22.34.30:149][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.04-22.34.30:216][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.04-22.34.31:778][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.04-22.34.31:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.04-22.34.32:316][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.04-22.34.32:702][  0]SourceControl: Info Source control is disabled
+[2017.05.04-22.34.34:116][  0]LogEngine: Initializing Engine...
+[2017.05.04-22.34.34:117][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.04-22.34.34:339][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.04-22.34.34:353][  0]LogInit: XAudio2 using 'Echo Cancelling Speakerphone (BCC950 ConferenceCam)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.04-22.34.34:364][  0]LogInit: FAudioDevice initialized.
+[2017.05.04-22.34.34:387][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Kovadon/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.04-22.34.34:395][  0]LogInit: Texture streaming: Enabled
+[2017.05.04-22.34.34:495][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.04-22.34.34:511][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={818FAEC0-4E5B-3B92-5DA6-B49249055BFF}
+[2017.05.04-22.34.34:600][  0]LogInit: Transaction tracking system initialized
+[2017.05.04-22.34.34:956][  0]BlueprintLog: New page: Editor Load
+[2017.05.04-22.34.35:896][  0]LocalizationService: Info Localization service is disabled
+[2017.05.04-22.34.36:603][  0]LogConsoleResponse:Display: 
+[2017.05.04-22.34.36:720][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.04-22.34.36:720][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.04-22.34.36:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/' took 0.02s
+[2017.05.04-22.34.37:893][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.37:893][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.37:918][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.04-22.34.47:349][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.47:349][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.47:351][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.47:351][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.53:277][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.53:277][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.53:279][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.53:279][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.34.53:308][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.04-22.34.53:308][  0]LightingResults: New page: Lighting Build
+[2017.05.04-22.34.53:360][  0]MapCheck: New page: Map Check
+[2017.05.04-22.34.53:360][  0]LightingResults: New page: Lighting Build
+[2017.05.04-22.34.53:633][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.04-22.34.53:655][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-22.34.53:655][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-22.34.53:703][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.151ms to complete.
+[2017.05.04-22.34.53:703][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.396
+[2017.05.04-22.34.53:824][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_fdc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1604_0///####STATCAT_Advanced####
+[2017.05.04-22.34.53:824][  0]LogCollectionManager: Loaded 0 collections in 0.001635 seconds
+[2017.05.04-22.34.53:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Saved/Collections/' took 0.01s
+[2017.05.04-22.34.53:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Developers/Kovadon/Collections/' took 0.01s
+[2017.05.04-22.34.53:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Collections/' took 0.01s
+[2017.05.04-22.34.53:930][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.04-22.34.53:939][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2245 classes and 453 folders.
+[2017.05.04-22.34.53:942][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.04-22.34.53:942][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.04-22.34.54:007][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.04-22.34.54:048][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.04-22.34.54:093][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.04-22.34.54:141][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.04-22.34.54:148][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.04-22.34.54:215][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.04-22.34.54:215][  0]LogLoad: (Engine Initialization) Total time: 31.74 seconds
+[2017.05.04-22.34.54:215][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.05.04-22.34.54:215][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.04-22.34.54:215][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.04-22.34.54:225][  0]LogOcInput: OculusInput pre-init called
+[2017.05.04-22.34.54:265][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.04-22.34.54:268][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.04-22.34.54:277][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.04-22.34.54:391][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-22.34.54:437][  0]LogRenderer: Reallocating scene render targets to support 1336x628 NumSamples 1 (Frame:2).
+[2017.05.04-22.34.54:543][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/' took 0.31s
+[2017.05.04-22.34.54:554][  1]LogAssetRegistry: Asset discovery search completed in 24.4879 seconds
+[2017.05.04-22.34.54:554][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.04-22.34.54:554][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.05.04-22.34.57:593][351]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-22.34.57:794][351]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 116 MB total VRAM
+[2017.05.04-22.34.57:887][351]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 116 MB total VRAM
+[2017.05.04-22.34.57:954][351]LogAIModule: Creating AISystem for world Island
+[2017.05.04-22.34.57:984][351]Cmd: MAP LOAD FILE="../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.04-22.34.57:984][351]LightingResults: New page: Lighting Build
+[2017.05.04-22.34.57:985][351]LoadErrors: New page: Loading map: Island.umap
+[2017.05.04-22.34.57:986][351]MapCheck: New page: Map Check
+[2017.05.04-22.34.57:986][351]LightingResults: New page: Lighting Build
+[2017.05.04-22.34.58:078][351]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-22.34.58:102][351]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-22.34.58:148][351]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.402ms to complete.
+[2017.05.04-22.34.58:148][351]LogFileHelpers: Loading map 'Island' took 0.166
+[2017.05.04-22.35.26:871][720]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2017.05.04-22.35.26:872][720]LogTemp:Display: Added material ShaderMap 0x000002E853C7E400 with Material 0x000002E86AFB4100 to ShaderMapsBeingCompiled
+[2017.05.04-22.35.26:881][720]LogTemp:Display: Kicking off shader compilation for M_Water_Ocean, GameThreadShaderMap 0x000002E853C7E400
+[2017.05.04-22.35.26:882][720]LogTemp:Display: Added shader map 0x000002E853C7E400 from material 0x000002E8590A3D00
+[2017.05.04-22.35.26:882][720]LogTemp:Display: Found existing compiling shader for material M_Water_Ocean, linking to other GameThreadShaderMap 0x000002E853C7E400
+[2017.05.04-22.35.26:886][720]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 137 MB total VRAM
+[2017.05.04-22.35.27:991][842]LogTemp:Display: Finished compile of shader map 0x000002E853C7E400
+[2017.05.04-22.35.27:991][842]LogTemp:Display: Shader map M_Water_Ocean complete, GameThreadShaderMap 0x000002E853C7E400, marking material M_Water_Ocean as finished
+[2017.05.04-22.35.27:991][842]LogTemp:Display: Marking material as finished 0x000002E86AFB4100
+[2017.05.04-22.35.27:992][842]LogTemp:Display: Shader map M_Water_Ocean complete, GameThreadShaderMap 0x000002E853C7E400, marking material M_Water_Ocean as finished
+[2017.05.04-22.35.27:992][842]LogTemp:Display: Marking material as finished 0x000002E8590A3D00
+[2017.05.04-22.35.30:773][174]Cmd: TRANSACTION UNDO
+[2017.05.04-22.35.30:773][174]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.35.30:787][174]LogTexture:Display: Building textures: Texture2D_63 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.30:798][174]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.30:798][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.30:799][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.30:811][174]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.30:823][174]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.30:823][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.30:835][174]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.30:847][174]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.30:848][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.30:848][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.30:870][174]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-22.35.31:385][225]Cmd: TRANSACTION UNDO
+[2017.05.04-22.35.31:385][225]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.35.31:388][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.31:396][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.31:425][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.31:426][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.31:436][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.31:436][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.37:253][918]Cmd: TRANSACTION UNDO
+[2017.05.04-22.35.37:253][918]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.35.37:255][918]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.37:255][918]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.37:267][918]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.37:278][918]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.35.59:615][316]Cmd: TRANSACTION UNDO
+[2017.05.04-22.35.59:615][316]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.35.59:617][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.35.59:629][316]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.01:176][465]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.01:176][465]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.36.01:189][465]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.01:201][465]LogTexture:Display: Building textures: Texture2D_104 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.01:201][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.01:202][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.01:214][465]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.01:226][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.01:226][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.21:049][758]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.21:049][758]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.04-22.36.21:312][776]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.21:312][776]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.04-22.36.21:545][790]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.21:546][790]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.04-22.36.21:750][808]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.21:750][808]LogEditorTransaction: Undo Move Actors
+[2017.05.04-22.36.21:974][832]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.21:974][832]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.36.21:977][832]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.21:977][832]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.21:989][832]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:001][832]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:249][859]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.22:249][859]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.36.22:259][859]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:259][859]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.22:267][859]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:268][859]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.22:279][859]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:290][859]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.22:457][875]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.22:457][875]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.36.22:459][875]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.22:460][875]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.22:468][875]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:477][875]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.36.22:858][919]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.22:858][919]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.36.22:860][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.22:860][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.23:912][ 39]Cmd: TRANSACTION UNDO
+[2017.05.04-22.36.23:912][ 39]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.36.23:937][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.23:937][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.23:961][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.36.23:961][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.23:287][466]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape9)
+[2017.05.04-22.37.25:048][665]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape9)
+[2017.05.04-22.37.25:711][742]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape9)
+[2017.05.04-22.37.26:952][886]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.05.04-22.37.26:969][886]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.05.04-22.37.29:783][163]Cmd: TRANSACTION UNDO
+[2017.05.04-22.37.29:783][163]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.37.29:811][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.29:812][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.29:830][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.29:831][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.30:915][268]Cmd: TRANSACTION UNDO
+[2017.05.04-22.37.30:915][268]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.05.04-22.37.30:946][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.30:946][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.30:947][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.37.30:947][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.38.40:471][833]Cmd: TRANSACTION UNDO
+[2017.05.04-22.38.40:471][833]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.05.04-22.38.40:479][833]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.38.40:479][833]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.38.40:491][833]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.39.05:871][597]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape9)
+[2017.05.04-22.39.06:729][668]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape9)
+[2017.05.04-22.39.59:055][722]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape9)
+[2017.05.04-22.40.42:849][ 43]MapCheck: New page: Map Check
+[2017.05.04-22.40.42:860][ 43]LightingResults: New page: Lighting Build - May 4, 2017, 10:40:42 AM
+[2017.05.04-22.40.42:984][ 43]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.04-22.40.43:030][ 43]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.04-22.40.43:039][ 43]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.04-22.40.43:556][ 43]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.04-22.40.43:556][ 43]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10660
+[2017.05.04-22.40.46:071][ 43]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.05.04-22.40.46:072][ 43]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.04-22.40.46:072][ 43]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.04-22.40.46:072][ 43]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.04-22.40.46:072][ 43]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.04-22.40.46:072][ 43]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.04-22.40.46:186][ 43]LogEditorBuildUtils: Build time 0:03
+[2017.05.04-22.40.56:799][678]Job is a success!
+[2017.05.04-22.40.57:121][679]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 137 MB total VRAM
+[2017.05.04-22.40.57:121][679]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 137 MB total VRAM
+[2017.05.04-22.40.57:155][679]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:155][679]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:155][679]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:155][679]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:156][679]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (BGRA8, 1024X32) - 137 MB total VRAM
+[2017.05.04-22.40.57:186][679]Lightmass on MONOLITHIUM: 9.65 sec total, 471 ms importing, 285 ms setup, 1.70 sec photons, 7.17 sec processing, 0 ms extra exporting [201/201 mappings]. Threads: 50.0 sec total, 39.2 sec processing.
+[2017.05.04-22.40.57:225][679]LogStaticLightingSystem: Illumination: 14.3 sec (213 ms encoding lightmaps, 27 ms encoding shadowmaps)
+[2017.05.04-22.40.57:225][679]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.05.04-22.40.57:225][679]LogStaticLightingSystem: Shadowmap texture memory: 0.9 MB (0.9 MB streaming, 0.0 MB non-streaming), 80 textures
+[2017.05.04-22.40.58:073][679]DumpUnbuiltLightIteractions
+[2017.05.04-22.40.58:073][679]Lights with unbuilt interactions: 0
+[2017.05.04-22.40.58:073][679]
+[2017.05.04-22.40.58:073][679]Primitives with unbuilt interactions: 0
+[2017.05.04-22.40.58:097][680]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.04-22.40.58:098][680]MapCheck: New page: Island - May 4, 2017, 10:40:58 AM
+[2017.05.04-22.40.58:180][680]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.326ms to complete.
+[2017.05.04-22.41.02:373][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island" FILE="../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-22.41.02:404][128]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.41.02:421][128]LogTexture:Display: Building textures: Texture2D_177 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.41.02:421][128]LogTexture:Display: Building textures: Texture2D_182 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.41.02:797][128]LogSavePackage: Save=402.67ms
+[2017.05.04-22.41.02:797][128]LogSavePackage: Moving '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Saved/Island50BC4276459BEAB93CD6BF88BD05954B.tmp' to '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap'
+[2017.05.04-22.41.02:802][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap
+[2017.05.04-22.41.02:826][128]LogFileHelpers: Saving map 'Island' took 0.504
+[2017.05.04-22.41.02:828][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island_BuiltData" FILE="../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset" SILENT=true
+[2017.05.04-22.41.02:924][128]LogSavePackage: Save=80.14ms
+[2017.05.04-22.41.02:924][128]LogSavePackage: Moving '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Saved/Island_BuiltData985AF9C74A662F8D02E35887183247CB.tmp' to '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset'
+[2017.05.04-22.41.02:927][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset
+[2017.05.04-22.42.22:688][303]Cmd: TRANSACTION UNDO
+[2017.05.04-22.42.22:688][303]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.05.04-22.42.22:696][303]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.22:696][303]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.22:708][303]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.42.29:267][ 15]Cmd: TRANSACTION UNDO
+[2017.05.04-22.42.29:267][ 15]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.05.04-22.42.29:275][ 15]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.29:287][ 15]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.42.29:297][ 15]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.29:298][ 15]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.29:298][ 15]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.34:563][568]Cmd: TRANSACTION UNDO
+[2017.05.04-22.42.34:563][568]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.05.04-22.42.34:571][568]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.34:583][568]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.42.34:594][568]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.34:594][568]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.34:594][568]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.50:676][201]Cmd: TRANSACTION UNDO
+[2017.05.04-22.42.50:676][201]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2017.05.04-22.42.50:685][201]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.50:697][201]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.42.50:707][201]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.50:707][201]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.50:708][201]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-22.42.55:292][693]MapCheck: New page: Map Check
+[2017.05.04-22.42.55:305][693]LightingResults: New page: Lighting Build - May 4, 2017, 10:42:55 AM
+[2017.05.04-22.42.55:403][693]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.04-22.42.55:404][693]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.04-22.42.55:404][693]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.04-22.42.55:405][693]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.04-22.42.55:405][693]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10660
+[2017.05.04-22.42.59:921][693]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.05.04-22.42.59:922][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.04-22.42.59:922][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.04-22.42.59:922][693]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.04-22.42.59:922][693]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.04-22.42.59:922][693]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.04-22.43.00:031][693]LogEditorBuildUtils: Build time 0:04
+[2017.05.04-22.43.10:497][592]Job is a success!
+[2017.05.04-22.43.10:797][593]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 137 MB total VRAM
+[2017.05.04-22.43.10:797][593]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_93 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_95 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_94 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_96 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_97 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_99 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_101 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_100 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_103 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_102 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_104 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_105 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_106 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:829][593]LogTexture:Display: Building textures: ShadowMapTexture2D_107 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_108 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_111 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_109 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_110 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_112 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_115 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_113 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_114 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_116 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_117 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_118 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_119 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_120 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_122 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_123 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_121 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_124 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_125 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_126 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_127 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_128 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_129 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_132 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_131 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_130 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_134 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_133 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_135 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_137 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_138 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_136 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_139 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_140 (BGRA8, 32X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_141 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_143 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_142 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_144 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_145 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_146 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_147 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_148 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_149 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_150 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_151 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_152 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_153 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_154 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_155 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_156 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_157 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_158 (BGRA8, 64X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:830][593]LogTexture:Display: Building textures: ShadowMapTexture2D_159 (BGRA8, 1024X32) - 137 MB total VRAM
+[2017.05.04-22.43.10:855][593]Lightmass on MONOLITHIUM: 9.81 sec total, 470 ms importing, 297 ms setup, 1.77 sec photons, 7.24 sec processing, 0 ms extra exporting [201/201 mappings]. Threads: 50.5 sec total, 40.1 sec processing.
+[2017.05.04-22.43.10:883][593]LogStaticLightingSystem: Illumination: 15.5 sec (207 ms encoding lightmaps, 29 ms encoding shadowmaps)
+[2017.05.04-22.43.10:883][593]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.05.04-22.43.10:883][593]LogStaticLightingSystem: Shadowmap texture memory: 0.9 MB (0.9 MB streaming, 0.0 MB non-streaming), 80 textures
+[2017.05.04-22.43.10:925][593]DumpUnbuiltLightIteractions
+[2017.05.04-22.43.10:925][593]Lights with unbuilt interactions: 0
+[2017.05.04-22.43.10:925][593]
+[2017.05.04-22.43.10:925][593]Primitives with unbuilt interactions: 0
+[2017.05.04-22.43.10:938][594]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.04-22.43.10:938][594]MapCheck: New page: Island - May 4, 2017, 10:43:10 AM
+[2017.05.04-22.43.10:991][594]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.423ms to complete.
+[2017.05.04-22.43.23:898][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island" FILE="../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-22.43.23:928][ 61]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512) - 136 MB total VRAM
+[2017.05.04-22.43.23:938][ 61]LogTexture:Display: Building textures: Texture2D_182 (BGRA8, 32X32) - 136 MB total VRAM
+[2017.05.04-22.43.23:938][ 61]LogTexture:Display: Building textures: Texture2D_177 (BGRA8, 32X32) - 136 MB total VRAM
+[2017.05.04-22.43.24:281][ 61]LogSavePackage: Save=366.98ms
+[2017.05.04-22.43.24:281][ 61]LogSavePackage: Moving '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Saved/IslandEB4015B74A163CBC4D9F4ABBB19FEC89.tmp' to '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap'
+[2017.05.04-22.43.24:284][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island.umap
+[2017.05.04-22.43.24:308][ 61]LogFileHelpers: Saving map 'Island' took 0.460
+[2017.05.04-22.43.24:310][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Island_BuiltData" FILE="../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset" SILENT=true
+[2017.05.04-22.43.24:398][ 61]LogSavePackage: Save=82.89ms
+[2017.05.04-22.43.24:398][ 61]LogSavePackage: Moving '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Saved/Island_BuiltData844A55B1417A93966EA7DDB19676C9CC.tmp' to '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset'
+[2017.05.04-22.43.24:401][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Levels/Island_BuiltData.uasset
+[2017.05.04-22.43.50:446][ 77]Cmd: QUIT_EDITOR
+[2017.05.04-22.43.50:489][ 77]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.43.50:490][ 77]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-22.43.50:519][ 77]LogExit: Preparing to exit.
+[2017.05.04-22.43.51:132][ 77]LogDirectoryWatcher: A directory notification for 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/' was aborted.
+[2017.05.04-22.43.51:156][ 77]LogExit: Editor shut down
+[2017.05.04-22.43.51:156][ 77]LogExit: Transaction tracking system shut down
+[2017.05.04-22.43.51:208][ 77]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.04-22.43.51:208][ 77]LogExit: Object subsystem successfully closed.
+[2017.05.04-22.43.51:224][ 77]LogD3D11RHI: Shutdown
+[2017.05.04-22.43.51:224][ 77]LogD3D11RHI: CleanupD3DDevice
+[2017.05.04-22.43.51:281][ 77]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.04-22.43.51:295][ 77]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.04-22.43.51:295][ 77]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.04-22.43.51:295][ 77]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.04-22.43.51:295][ 77]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.04-22.43.51:295][ 77]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.04-22.43.51:296][ 77]LogDirectoryWatcher: A directory notification for 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Collections/' was aborted.
+[2017.05.04-22.43.51:296][ 77]LogDirectoryWatcher: A directory notification for 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/Developers/Kovadon/Collections/' was aborted.
+[2017.05.04-22.43.51:296][ 77]LogDirectoryWatcher: A directory notification for 'C:/Users/Kovadon/Documents/GitHub/Pavor/Pavor/Saved/Collections/' was aborted.
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.04-22.43.51:296][ 77]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.04-22.43.51:297][ 77]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.04-22.43.51:465][ 77]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.04-22.43.51:466][ 77]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.04-22.43.51:519][ 77]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.04-22.43.51:520][ 77]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.04-22.43.51:705][ 77]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.04-22.43.51:705][ 77]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.04-22.43.51:705][ 77]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.04-22.43.51:705][ 77]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.04-22.43.51:706][ 77]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.04-22.43.51:734][ 77]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.04-22.43.51:736][ 77]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.04-22.43.51:736][ 77]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.04-22.43.51:736][ 77]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.04-22.43.51:737][ 77]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.04-22.43.51:738][ 77]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.04-22.43.51:738][ 77]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.04-22.43.51:738][ 77]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.04-22.43.51:738][ 77]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.04-22.43.51:839][ 77]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.04-22.43.51:964][ 77]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.04-22.43.51:965][ 77]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.04-22.43.51:967][ 77]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.04-22.43.51:967][ 77]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.04-22.43.51:967][ 77]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.04-22.43.51:967][ 77]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.04-22.43.51:967][ 77]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.04-22.43.51:967][ 77]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.04-22.43.52:153][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.04-22.43.52:153][ 77]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Kovadon/Documents/GitHub/Pavor/Pavor/Content/' was aborted.
+[2017.05.04-22.43.52:153][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.04-22.43.52:153][ 77]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.04-22.43.52:154][ 77]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.04-22.43.52:228][ 77]LogDerivedDataCache: Shutdown
+[2017.05.04-22.43.52:228][ 77]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.04-22.43.52:228][ 77]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.04-22.43.52:228][ 77]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.04-22.43.52:228][ 77]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.04-22.43.52:229][ 77]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.04-22.43.52:230][ 77]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.04-22.43.52:230][ 77]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.04-22.43.52:230][ 77]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.04-22.43.52:230][ 77]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5C41B6BB-49DB-A118-22C5-42B00DFF34CB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=1f56ef0d40627cbfccd5159da8d0798c%7C30e127aa9a4d495a81f900325a267903%7C22b9085d-dcf6-44b1-bafc-5012f5cb10de&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.04-22.43.52:254][ 77]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.04-22.43.52:257][ 77]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.04-22.43.52:257][ 77]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.04-22.43.52:257][ 77]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.04-22.43.52:257][ 77]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.04-22.43.52:257][ 77]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.04-22.43.52:258][ 77]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.04-22.43.52:261][ 77]LogExit: Exiting.
+[2017.05.04-22.43.52:289][ 77]Log file closed, 05/04/17 16:43:52
